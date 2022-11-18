@@ -444,147 +444,6 @@ INSERT INTO player VALUES (170, 17, 'Chaves');
 INSERT INTO person VALUES (171, 'Vitor Campelos', 47);
 INSERT INTO coach VALUES  (171, 'Chaves');
 
---Round 1 Games
-INSERT INTO game VALUES (1, '05/08/2022', 348, 'Estádio da Luz', 'Benfica', 'Arouca', 1);
-INSERT INTO game VALUES (2, '06/08/2022', 354, 'Estádio dos Arcos', 'Rio Ave', 'Vizela', 1);
-INSERT INTO game VALUES (3, '06/08/2022', 344, 'Estádio António Coimbra da Mota', 'Estoril Praia', 'Famalicão', 1);
-INSERT INTO game VALUES (4, '06/08/2022', 352, 'Estádio do Dragão', 'Porto', 'Marítimo', 1);
-INSERT INTO game VALUES (5, '07/08/2022', 366, 'Estádio de São Miguel', 'Santa Clara', 'Casa Pia', 1);
-INSERT INTO game VALUES (6, '07/08/2022', 346, 'Estádio Municipal de Braga', 'Braga', 'Sporting', 1);
-INSERT INTO game VALUES (7, '07/08/2022', 345, 'Estádio Municipal Eng.º Manuel Branco Teixeira', 'Chaves', 'Vitória', 1);
-INSERT INTO game VALUES (8, '07/08/2022', 351, 'Estádio Municipal de Portimão', 'Portimonense', 'Boavista', 1);
-INSERT INTO game VALUES (9, '08/08/2022', 349, 'Estádio Cidade de Barcelos', 'Gil Vicente', 'Paços de Ferreira', 1);
-
---Round 1 Events
-INSERT INTO event VALUES (1, 0, 0);
-INSERT INTO event VALUES (2, 0, 0);
-INSERT INTO event VALUES (3, 0, 0);
-INSERT INTO event VALUES (4, 0, 0);
-INSERT INTO event VALUES (5, 0, 0);
-INSERT INTO event VALUES (6, 0, 0);
-INSERT INTO event VALUES (7, 0, 0);
-INSERT INTO event VALUES (8, 0, 0);
-INSERT INTO event VALUES (9, 0, 0);
-INSERT INTO event VALUES (10, 0, 0);
-INSERT INTO event VALUES (11, 0, 0);
-INSERT INTO event VALUES (12, 0, 0);
-INSERT INTO event VALUES (13, 0, 0);
-INSERT INTO event VALUES (14, 0, 0);
-INSERT INTO event VALUES (15, 0, 0);
-INSERT INTO event VALUES (16, 0, 0);
-INSERT INTO event VALUES (17, 0, 0);
-INSERT INTO event VALUES (18, 0, 0);
-INSERT INTO event VALUES (19, 0, 0);
-INSERT INTO event VALUES (20, 0, 0);
-INSERT INTO event VALUES (21, 0, 0);
-INSERT INTO event VALUES (22, 0, 0);
-INSERT INTO event VALUES (23, 0, 0);
-INSERT INTO event VALUES (24, 0, 0);
-INSERT INTO event VALUES (25, 0, 0);
-INSERT INTO event VALUES (26, 0, 0);
-INSERT INTO event VALUES (27, 0, 0);
-INSERT INTO event VALUES (28, 0, 0);
-INSERT INTO event VALUES (29, 0, 0);
-INSERT INTO event VALUES (30, 0, 0);
-INSERT INTO event VALUES (31, 0, 0);
-INSERT INTO event VALUES (32, 0, 0);
-INSERT INTO event VALUES (33, 0, 0);
-INSERT INTO event VALUES (34, 0, 0);
-INSERT INTO event VALUES (35, 0, 0);
-INSERT INTO event VALUES (36, 0, 0);
-INSERT INTO event VALUES (37, 0, 0);
-INSERT INTO event VALUES (38, 0, 0);
-INSERT INTO event VALUES (39, 0, 0);
-INSERT INTO event VALUES (40, 0, 0);
-INSERT INTO event VALUES (41, 0, 0);
-INSERT INTO event VALUES (42, 0, 0);
-INSERT INTO event VALUES (43, 0, 0);
-INSERT INTO event VALUES (44, 0, 0);
-INSERT INTO event VALUES (45, 0, 0);
-INSERT INTO event VALUES (46, 0, 0);
-INSERT INTO event VALUES (47, 0, 0);
-INSERT INTO event VALUES (48, 0, 0);
-INSERT INTO event VALUES (49, 0, 0);
-INSERT INTO event VALUES (50, 0, 0);
-INSERT INTO event VALUES (51, 0, 0);
-INSERT INTO event VALUES (52, 0, 0);
-INSERT INTO event VALUES (53, 0, 0);
-INSERT INTO event VALUES (54, 0, 0);
-INSERT INTO event VALUES (55, 0, 0);
-INSERT INTO event VALUES (56, 0, 0);
-INSERT INTO event VALUES (57, 0, 0);
-INSERT INTO event VALUES (58, 0, 0);
-INSERT INTO event VALUES (59, 0, 0);
-INSERT INTO event VALUES (60, 0, 0);
-INSERT INTO event VALUES (61, 0, 0);
-INSERT INTO event VALUES (62, 0, 0);
-INSERT INTO event VALUES (63, 0, 0);
-INSERT INTO event VALUES (64, 0, 0);
-INSERT INTO event VALUES (65, 0, 0);
-INSERT INTO event VALUES (66, 0, 0);
-INSERT INTO event VALUES (67, 0, 0);
-INSERT INTO event VALUES (68, 0, 0);
-INSERT INTO event VALUES (69, 0, 0);
-INSERT INTO event VALUES (70, 0, 0);
-INSERT INTO event VALUES (71, 0, 0);
-INSERT INTO event VALUES (72, 0, 0);
-INSERT INTO event VALUES (73, 0, 0);
-INSERT INTO event VALUES (74, 0, 0);
-INSERT INTO event VALUES (75, 0, 0);
-INSERT INTO event VALUES (76, 0, 0);
-INSERT INTO event VALUES (77, 0, 0);
-INSERT INTO event VALUES (78, 0, 0);
-INSERT INTO event VALUES (79, 0, 0);
-INSERT INTO event VALUES (80, 0, 0);
-INSERT INTO event VALUES (81, 0, 0);
-INSERT INTO event VALUES (82, 0, 0);
-INSERT INTO event VALUES (83, 0, 0);
-INSERT INTO event VALUES (84, 0, 0);
-INSERT INTO event VALUES (85, 0, 0);
-INSERT INTO event VALUES (86, 0, 0);
-INSERT INTO event VALUES (87, 0, 0);
-INSERT INTO event VALUES (88, 0, 0);
-INSERT INTO event VALUES (89, 0, 0);
-INSERT INTO event VALUES (90, 0, 0);
-INSERT INTO event VALUES (91, 0, 0);
-INSERT INTO event VALUES (92, 0, 0);
-INSERT INTO event VALUES (93, 0, 0);
-INSERT INTO event VALUES (94, 0, 0);
-INSERT INTO event VALUES (95, 0, 0);
-INSERT INTO event VALUES (96, 0, 0);
-INSERT INTO event VALUES (97, 0, 0);
-INSERT INTO event VALUES (98, 0, 0);
-INSERT INTO event VALUES (99, 0, 0);
-
-
-
-
-
-
---Round 2
-INSERT INTO game VALUES (10, '12/08/2022', 350, 'Estádio Municipal de Famalicão', 'Famalicão', 'Braga', 2);
-INSERT INTO game VALUES (11, '13/08/2022', 353, 'Estádio Pina Manique', 'Casa Pia', 'Benfica', 2);
-INSERT INTO game VALUES (12, '13/08/2022', 348, 'Estádio José Alvalade', 'Sporting', 'Rio Ave', 2);
-INSERT INTO game VALUES (13, '14/08/2022', 352, 'Estádio do Bessa', 'Boavista', 'Santa Clara', 2);
-INSERT INTO game VALUES (14, '14/08/2022', 346, 'Estádio do FC Vizela', 'Vizela', 'Porto', 2);
-INSERT INTO game VALUES (15, '14/08/2022', 351, 'Estádio de D. Afonso Henriques', 'Vitória', 'Estoril Praia', 2);
-INSERT INTO game VALUES (16, '14/08/2022', 360, 'Estádio dos Barreiros', 'Marítimo', 'Chaves', 2);
-INSERT INTO game VALUES (17, '15/08/2022', 344, 'Estádio Municipal de Arouca', 'Arouca', 'Gil Vicente', 2);
-INSERT INTO game VALUES (18, '15/08/2022', 343, 'Estádio Capital do Móvel', 'Paços de Ferreira', 'Portimonense', 2);
-
---Round 3
-INSERT INTO game VALUES (19, '19/08/2022', 362, 'Estádio António Coimbra da Mota ', 'Estoril', 'Rio Ave', 3);
-INSERT INTO game VALUES (20, '20/08/2022', 359, 'Estádio de São Miguel', 'Santa Clara', 'Arouca', 3);
-INSERT INTO game VALUES (21, '20/08/2022', 355, 'Estádio Municipal Eng.º Manuel Branco Teixeira', 'Chaves', 'Vizela', 3);
-INSERT INTO game VALUES (22, '20/08/2022', 344, 'Estádio do Dragão', 'Porto', 'Sporting', 3);
-INSERT INTO game VALUES (23, '21/08/2022', 364, 'Estádio Pina Manique', 'Casa Pia', 'Boavista', 3);
-INSERT INTO game VALUES (24, '21/08/2022', 356, 'Estádio Municipal de Braga', 'Braga', 'Marítimo', 3);
-INSERT INTO game VALUES (25, '21/08/2022', 360, 'Estádio Municipal de Portimão', 'Portimonense', 'Vitória', 3);
-INSERT INTO game VALUES (26, '22/08/2022', 351, 'Estádio Cidade de Barcelos', 'Gil Vicente', 'Famalicão', 3);
-INSERT INTO game VALUES (27, '30/08/2022', 347, 'Estádio da Luz', 'Benfica', 'Paços de Ferreira', 3);
-
-
-
 --Referees
 INSERT INTO person VALUES (343, 'João Pinheiro', 34);
 INSERT INTO person VALUES (344, 'Nuno Almeida', 47);
@@ -635,3 +494,137 @@ INSERT INTO referee VALUES (363);
 INSERT INTO referee VALUES (364);
 INSERT INTO referee VALUES (365);
 INSERT INTO referee VALUES (366);
+
+--Round 1 Games
+INSERT INTO game VALUES (1, '05/08/2022', 348, 'Estádio da Luz', 'Benfica', 'Arouca', 1);
+--INSERT INTO game VALUES (2, '06/08/2022', 354, 'Estádio dos Arcos', 'Rio Ave', 'Vizela', 1);
+--INSERT INTO game VALUES (3, '06/08/2022', 344, 'Estádio António Coimbra da Mota', 'Estoril Praia', 'Famalicão', 1);
+--INSERT INTO game VALUES (4, '06/08/2022', 352, 'Estádio do Dragão', 'Porto', 'Marítimo', 1);
+--INSERT INTO game VALUES (5, '07/08/2022', 366, 'Estádio de São Miguel', 'Santa Clara', 'Casa Pia', 1);
+INSERT INTO game VALUES (6, '07/08/2022', 346, 'Estádio Municipal de Braga', 'Braga', 'Sporting', 1);
+INSERT INTO game VALUES (7, '07/08/2022', 345, 'Estádio Municipal Eng.º Manuel Branco Teixeira', 'Chaves', 'Vitória', 1);
+--INSERT INTO game VALUES (8, '07/08/2022', 351, 'Estádio Municipal de Portimão', 'Portimonense', 'Boavista', 1);
+--INSERT INTO game VALUES (9, '08/08/2022', 349, 'Estádio Cidade de Barcelos', 'Gil Vicente', 'Paços de Ferreira', 1);
+
+--Round 1 Events
+INSERT INTO event VALUES (1, 0, 0);
+INSERT INTO event VALUES (2, 0, 0);
+INSERT INTO event VALUES (3, 0, 0);
+INSERT INTO event VALUES (4, 0, 0);
+INSERT INTO event VALUES (5, 0, 0);
+INSERT INTO event VALUES (6, 0, 0);
+INSERT INTO event VALUES (7, 0, 0);
+INSERT INTO event VALUES (8, 0, 0);
+INSERT INTO event VALUES (9, 0, 0);
+
+
+--Round 2
+--INSERT INTO game VALUES (10, '12/08/2022', 350, 'Estádio Municipal de Famalicão', 'Famalicão', 'Braga', 2);
+INSERT INTO game VALUES (11, '13/08/2022', 353, 'Estádio Pina Manique', 'Casa Pia', 'Benfica', 2);
+--INSERT INTO game VALUES (12, '13/08/2022', 348, 'Estádio José Alvalade', 'Sporting', 'Rio Ave', 2);
+--INSERT INTO game VALUES (13, '14/08/2022', 352, 'Estádio do Bessa', 'Boavista', 'Santa Clara', 2);
+--INSERT INTO game VALUES (14, '14/08/2022', 346, 'Estádio do FC Vizela', 'Vizela', 'Porto', 2);
+--INSERT INTO game VALUES (15, '14/08/2022', 351, 'Estádio de D. Afonso Henriques', 'Vitória', 'Estoril Praia', 2);
+--INSERT INTO game VALUES (16, '14/08/2022', 360, 'Estádio dos Barreiros', 'Marítimo', 'Chaves', 2);
+--INSERT INTO game VALUES (17, '15/08/2022', 344, 'Estádio Municipal de Arouca', 'Arouca', 'Gil Vicente', 2);
+--INSERT INTO game VALUES (18, '15/08/2022', 343, 'Estádio Capital do Móvel', 'Paços de Ferreira', 'Portimonense', 2);
+
+INSERT INTO event VALUES (10, 0, 0);
+INSERT INTO event VALUES (11, 0, 0);
+INSERT INTO event VALUES (12, 0, 0);
+INSERT INTO event VALUES (13, 0, 0);
+INSERT INTO event VALUES (14, 0, 0);
+INSERT INTO event VALUES (15, 0, 0);
+INSERT INTO event VALUES (16, 0, 0);
+INSERT INTO event VALUES (17, 0, 0);
+INSERT INTO event VALUES (18, 0, 0);
+INSERT INTO event VALUES (19, 0, 0);
+
+
+--Round 3
+--INSERT INTO game VALUES (19, '19/08/2022', 362, 'Estádio António Coimbra da Mota ', 'Estoril Praia', 'Rio Ave', 3);
+--INSERT INTO game VALUES (20, '20/08/2022', 359, 'Estádio de São Miguel', 'Santa Clara', 'Arouca', 3);
+--INSERT INTO game VALUES (21, '20/08/2022', 355, 'Estádio Municipal Eng.º Manuel Branco Teixeira', 'Chaves', 'Vizela', 3);
+INSERT INTO game VALUES (22, '20/08/2022', 344, 'Estádio do Dragão', 'Porto', 'Sporting', 3);
+--INSERT INTO game VALUES (23, '21/08/2022', 364, 'Estádio Pina Manique', 'Casa Pia', 'Boavista', 3);
+--INSERT INTO game VALUES (24, '21/08/2022', 356, 'Estádio Municipal de Braga', 'Braga', 'Marítimo', 3);
+INSERT INTO game VALUES (25, '21/08/2022', 360, 'Estádio Municipal de Portimão', 'Portimonense', 'Vitória', 3);
+--INSERT INTO game VALUES (26, '22/08/2022', 351, 'Estádio Cidade de Barcelos', 'Gil Vicente', 'Famalicão', 3);
+--INSERT INTO game VALUES (27, '30/08/2022', 347, 'Estádio da Luz', 'Benfica', 'Paços de Ferreira', 3);
+
+INSERT INTO event VALUES (20, 0, 0);
+INSERT INTO event VALUES (21, 0, 0);
+INSERT INTO event VALUES (22, 0, 0);
+INSERT INTO event VALUES (23, 0, 0);
+INSERT INTO event VALUES (24, 0, 0);
+INSERT INTO event VALUES (25, 0, 0);
+INSERT INTO event VALUES (26, 0, 0);
+INSERT INTO event VALUES (27, 0, 0);
+INSERT INTO event VALUES (28, 0, 0);
+INSERT INTO event VALUES (29, 0, 0);
+
+--Round 4
+--INSERT INTO game VALUES (28, '26/08/2022', 358, 'Estádio Capital do Móvel', 'Paços de Ferreira', 'Estoril Praia', 4);
+--INSERT INTO game VALUES (29, '27/08/2022', 348, 'Estádio dos Barreiros', 'Marítimo', 'Portimonense', 4);
+--INSERT INTO game VALUES (30, '27/08/2022', 343, 'Estádio do Bessa', 'Boavista', 'Benfica', 4);
+INSERT INTO game VALUES (31, '27/08/2022', 349, 'Estádio José Alvalade', 'Sporting', 'Chaves', 4);
+--INSERT INTO game VALUES (32, '28/08/2022', 346, 'Estádio Municipal de Famalicão', 'Famalicão', 'Santa Clara', 4);
+INSERT INTO game VALUES (33, '28/08/2022', 354, 'Estádio Municipal de Arouca', 'Arouca', 'Braga', 4);
+--INSERT INTO game VALUES (34, '28/08/2022', 353, 'Estádio dos Arcos', 'Rio Ave', 'Porto', 4);
+INSERT INTO game VALUES (35, '29/08/2022', 352, 'Estádio D. Afonso Henriques', 'Vitória', 'Casa Pia', 4);
+--INSERT INTO game VALUES (36, '29/08/2022', 345, 'Estádio do FC Vizela', 'Vizela', 'Gil Vicente', 4);
+
+INSERT INTO event VALUES (30, 0, 0);
+INSERT INTO event VALUES (31, 0, 0);
+INSERT INTO event VALUES (32, 0, 0);
+INSERT INTO event VALUES (33, 0, 0);
+INSERT INTO event VALUES (34, 0, 0);
+INSERT INTO event VALUES (35, 0, 0);
+INSERT INTO event VALUES (36, 0, 0);
+INSERT INTO event VALUES (37, 0, 0);
+INSERT INTO event VALUES (38, 0, 0);
+INSERT INTO event VALUES (39, 0, 0);
+
+--Round 5
+--INSERT INTO game VALUES (37, '02/09/2022', 346, 'Estádio da Luz', 'Benfica', 'Vizela', 5);
+--INSERT INTO game VALUES (38, '02/09/2022', 345, 'Estádio António Coimbra da Mota', 'Estoril Praia', 'Sporting', 5);
+INSERT INTO game VALUES (39, '03/09/2022', 344, 'Estádio Municipal de Braga', 'Braga', 'Vitória', 5);
+--INSERT INTO game VALUES (40, '03/09/2022', 343, 'Estádio Cidade de Barcelos', 'Gil Vicente', 'Porto', 5);
+INSERT INTO game VALUES (41, '04/09/2022', 358, 'Estádio Pina Manique', 'Casa Pia', 'Arouca', 5);
+--INSERT INTO game VALUES (42, '04/09/2022', 354, 'Estádio de São Miguel', 'Santa Clara', 'Marítimo', 5);
+--INSERT INTO game VALUES (43, '04/09/2022', 347, 'Estádio Municipal de Portimão', 'Portimonense', 'Famalicão', 5);
+--INSERT INTO game VALUES (44, '05/09/2022', 351, 'Estádio do Bessa', 'Boavista', 'Paços de Ferreira', 5);
+--INSERT INTO game VALUES (45, '05/09/2022', 352, 'Estádio Municipal Eng.º Manuel Branco Teixeira', 'Chaves', 'Rio Ave', 5);
+
+INSERT INTO event VALUES (40, 0, 0);
+INSERT INTO event VALUES (41, 0, 0);
+INSERT INTO event VALUES (42, 0, 0);
+INSERT INTO event VALUES (43, 0, 0);
+INSERT INTO event VALUES (44, 0, 0);
+INSERT INTO event VALUES (45, 0, 0);
+INSERT INTO event VALUES (46, 0, 0);
+INSERT INTO event VALUES (47, 0, 0);
+INSERT INTO event VALUES (48, 0, 0);
+INSERT INTO event VALUES (49, 0, 0);
+
+--Round 6
+--INSERT INTO game VALUES (46, '09/09/2022', 343, 'Estádio D. Afonso Henriques', 'Vitória', 'Santa Clara', 6);
+--INSERT INTO game VALUES (47, '10/09/2022', 344, 'Estádio Municipal de Famalicão', 'Famalicão', 'Benfica', 6);
+INSERT INTO game VALUES (48, '10/09/2022', 351, 'Estádio José Alvalade', 'Sporting', 'Portimonense', 6);
+INSERT INTO game VALUES (49, '10/09/2022', 356, 'Estádio do Dragão', 'Porto', 'Chaves', 6);
+--INSERT INTO game VALUES (50, '11/09/2022', 353, 'Estádio Capital do Móvel', 'Paços de Ferreira', 'Casa Pia', 6);
+--INSERT INTO game VALUES (51, '11/09/2022', 361, 'Estádio Municipal de Arouca', 'Arouca', 'Boavista', 6);
+--INSERT INTO game VALUES (52, '11/09/2022', 357, 'Estádio dos Barreiros', 'Marítimo', 'Gil Vicente', 6);
+--INSERT INTO game VALUES (53, '11/09/2022', 350, 'Estádio dos Arcos', 'Rio Ave', 'Braga', 6);
+--INSERT INTO game VALUES (54, '12/09/2022', 348, 'Estádio do FC Vizela', 'Vizela', 'Estoril Praia', 6);
+
+INSERT INTO event VALUES (50, 0, 0);
+INSERT INTO event VALUES (51, 0, 0);
+INSERT INTO event VALUES (52, 0, 0);
+INSERT INTO event VALUES (53, 0, 0);
+INSERT INTO event VALUES (54, 0, 0);
+INSERT INTO event VALUES (55, 0, 0);
+INSERT INTO event VALUES (56, 0, 0);
+INSERT INTO event VALUES (57, 0, 0);
+INSERT INTO event VALUES (58, 0, 0);
+INSERT INTO event VALUES (59, 0, 0);
