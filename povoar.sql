@@ -38,26 +38,60 @@ INSERT INTO round_ VALUES (33, 2023);
 INSERT INTO round_ VALUES (34, 2023);
 
 
+--Stadiums
 INSERT INTO team VALUES ('Porto', 'Estádio do Dragão');
 INSERT INTO team VALUES ('Sporting', 'Estádio José Alvalade');
 INSERT INTO team VALUES ('Benfica', 'Estádio da Luz');
 INSERT INTO team VALUES ('Braga', 'Estádio Municipal de Braga');
 INSERT INTO team VALUES ('Boavista', 'Estádio do Bessa');
-INSERT INTO team VALUES ('Vitória', 'Estádio do Bonfim');
-INSERT INTO team VALUES ('Paços de Ferreira', 'Estádio Municipal de Paços de Ferreira');
+INSERT INTO team VALUES ('Vitória', 'Estádio de D. Afonso Henriques');
+INSERT INTO team VALUES ('Paços de Ferreira', 'Estádio Capital do Móvel');
 INSERT INTO team VALUES ('Arouca', 'Estádio Municipal de Arouca');
-INSERT INTO team VALUES ('Vizela', 'Estádio Municipal de Vizela');
+INSERT INTO team VALUES ('Vizela', 'Estádio do FC Vizela');
 INSERT INTO team VALUES ('Famalicão', 'Estádio Municipal de Famalicão');
 INSERT INTO team VALUES ('Santa Clara', 'Estádio de São Miguel');
-INSERT INTO team VALUES ('Chaves', 'Estádio Municipal de Chaves');
+INSERT INTO team VALUES ('Chaves', 'Estádio Municipal Eng.º Manuel Branco Teixeira');
 INSERT INTO team VALUES ('Estoril Praia', 'Estádio António Coimbra da Mota');
 INSERT INTO team VALUES ('Gil Vicente', 'Estádio Cidade de Barcelos');
 INSERT INTO team VALUES ('Marítimo', 'Estádio dos Barreiros');
-INSERT INTO team VALUES ('Casa Pia', 'Estádio Municipal de Alvalade');
-INSERT INTO team VALUES ('Rio Ave', 'Estádio do Rio Ave');
+INSERT INTO team VALUES ('Casa Pia', 'Estádio Pina Manique');
+INSERT INTO team VALUES ('Rio Ave', 'Estádio dos Arcos');
 INSERT INTO team VALUES ('Portimonense', 'Estádio Municipal de Portimão');
 
+--Round 1
+INSERT INTO game VALUES (1, '05/08/2022', 348, 'Estádio da Luz', 'Benfica', 'Arouca', 1);
+INSERT INTO game VALUES (2, '06/08/2022', 354, 'Estádio dos Arcos', 'Rio Ave', 'Vizela', 1);
+INSERT INTO game VALUES (3, '06/08/2022', 344, 'Estádio António Coimbra da Mota', 'Estoril Praia', 'Famalicão', 1);
+INSERT INTO game VALUES (4, '06/08/2022', 352, 'Estádio do Dragão', 'Porto', 'Marítimo', 1);
+INSERT INTO game VALUES (5, '07/08/2022', 366, 'Estádio de São Miguel', 'Santa Clara', 'Casa Pia', 1);
+INSERT INTO game VALUES (6, '07/08/2022', 346, 'Estádio Municipal de Braga', 'Braga', 'Sporting', 1);
+INSERT INTO game VALUES (7, '07/08/2022', 345, 'Estádio Municipal Eng.º Manuel Branco Teixeira', 'Chaves', 'Vitória', 1);
+INSERT INTO game VALUES (8, '07/08/2022', 351, 'Estádio Municipal de Portimão', 'Portimonense', 'Boavista', 1);
+INSERT INTO game VALUES (9, '08/08/2022', 349, 'Estádio Cidade de Barcelos', 'Gil Vicente', 'Paços de Ferreira', 1);
 
+--Round 2
+INSERT INTO game VALUES (10, '12/08/2022', 350, 'Estádio Municipal de Famalicão', 'Famalicão', 'Braga', 2);
+INSERT INTO game VALUES (11, '13/08/2022', 353, 'Estádio Pina Manique', 'Casa Pia', 'Benfica', 2);
+INSERT INTO game VALUES (12, '13/08/2022', 348, 'Estádio José Alvalade', 'Sporting', 'Rio Ave', 2);
+INSERT INTO game VALUES (13, '14/08/2022', 352, 'Estádio do Bessa', 'Boavista', 'Santa Clara', 2);
+INSERT INTO game VALUES (14, '14/08/2022', 346, 'Estádio do FC Vizela', 'Vizela', 'Porto', 2);
+INSERT INTO game VALUES (15, '14/08/2022', 351, 'Estádio de D. Afonso Henriques', 'Vitória', 'Estoril Praia', 2);
+INSERT INTO game VALUES (16, '14/08/2022', 360, 'Estádio dos Barreiros', 'Marítimo', 'Chaves', 2);
+INSERT INTO game VALUES (17, '15/08/2022', 344, 'Estádio Municipal de Arouca', 'Arouca', 'Gil Vicente', 2);
+INSERT INTO game VALUES (18, '15/08/2022', 343, 'Estádio Capital do Móvel', 'Paços de Ferreira', 'Portimonense', 2);
+
+--Round 3
+INSERT INTO game VALUES (19, '19/08/2022', 362, 'Estádio António Coimbra da Mota ', 'Estoril', 'Rio Ave', 3);
+INSERT INTO game VALUES (20, '20/08/2022', 359, 'Estádio de São Miguel', 'Santa Clara', 'Arouca', 3);
+INSERT INTO game VALUES (21, '20/08/2022', 355, 'Estádio Municipal Eng.º Manuel Branco Teixeira', 'Chaves', 'Vizela', 3);
+INSERT INTO game VALUES (22, '20/08/2022', 344, 'Estádio do Dragão', 'Porto', 'Sporting', 3);
+INSERT INTO game VALUES (23, '21/08/2022', 364, 'Estádio Pina Manique', 'Casa Pia', 'Boavista', 3);
+INSERT INTO game VALUES (24, '21/08/2022', 356, 'Estádio Municipal de Braga', 'Braga', 'Marítimo', 3);
+INSERT INTO game VALUES (25, '21/08/2022', 360, 'Estádio Municipal de Portimão', 'Portimonense', 'Vitória', 3);
+INSERT INTO game VALUES (26, '22/08/2022', 351, 'Estádio Cidade de Barcelos', 'Gil Vicente', 'Famalicão', 3);
+INSERT INTO game VALUES (27, '30/08/2022', 347, 'Estádio da Luz', 'Benfica', 'Paços de Ferreira', 3);
+
+--Players and coaches: Porto
 INSERT INTO person VALUES (1, 'Diogo Costa', 23);
 INSERT INTO player VALUES (1, 99, 'Porto');
 INSERT INTO person VALUES (2, 'Fábio Cardoso', 28);
@@ -97,7 +131,7 @@ INSERT INTO player VALUES (18, 28, 'Porto');
 INSERT INTO person VALUES (19, 'Sérgio Conceição', 48);
 INSERT INTO coach VALUES  (19, 'Porto')
 
-
+--Benfica
 INSERT INTO person VALUES (20, 'Helton Leite', 32);
 INSERT INTO player VALUES (20, 72, 'Benfica');
 INSERT INTO person VALUES (21, 'Odysseas Vlachodimos', 28);
@@ -137,6 +171,7 @@ INSERT INTO player VALUES (37, 23, 'Benfica');
 INSERT INTO person VALUES (38, 'Roger Schmidt', 55);
 INSERT INTO coach VALUES  (38, 'Benfica');
 
+--Braga
 INSERT INTO person VALUES (39, 'Matheus Magalhães', 30);
 INSERT INTO player VALUES (39, 1, 'Braga');
 INSERT INTO person VALUES (40, 'Fabiano Souza', 22);
@@ -176,6 +211,7 @@ INSERT INTO player VALUES (56, 29, 'Braga');
 INSERT INTO person VALUES (57, 'Artur Jorge', 50);
 INSERT INTO coach VALUES  (57, 'Braga');
 
+--Sporting
 INSERT INTO person VALUES (58, 'Antonio Adán', 35);
 INSERT INTO player VALUES (58, 1, 'Sporting');
 INSERT INTO person VALUES (59, 'André Paulo', 25);
@@ -215,6 +251,7 @@ INSERT INTO player VALUES (75, 97, 'Sporting');
 INSERT INTO person VALUES (76, 'Rúben Amorim', 37);
 INSERT INTO coach VALUES  (76, 'Sporting');
 
+--Casa Pia
 INSERT INTO person VALUES (77, 'Ricardo Batista', 35);
 INSERT INTO player VALUES (77, 33, 'Casa Pia');
 INSERT INTO person VALUES (78, 'Vasco Fernandes', 36);
@@ -254,6 +291,7 @@ INSERT INTO player VALUES (94, 21, 'Casa Pia');
 INSERT INTO person VALUES (95, 'Filipe Martins', 44);
 INSERT INTO coach VALUES  (95, 'Casa Pia');
 
+--Vitória
 INSERT INTO person VALUES (96, 'Bruno Varela', 26);
 INSERT INTO player VALUES (96, 14, 'Vitória');
 INSERT INTO person VALUES (97, 'Mikel Villanueva', 29);
@@ -293,7 +331,59 @@ INSERT INTO player VALUES (113, 23, 'Vitória');
 INSERT INTO person VALUES (114, 'Moreno', 41);
 INSERT INTO coach VALUES  (114, 'Vitória');
 
+--Portimonense
 INSERT INTO person VALUES (115, 'Kosuke Nakamura', 27);
 INSERT INTO player VALUES (115, 32, 'Portimonense');
 INSERT INTO person VALUES (115, 'Fahd Moufi', 27);
 INSERT INTO player VALUES (115, 32, 'Portimonense');
+
+--Referees
+INSERT INTO person VALUES (343, 'João Pinheiro', 34);
+INSERT INTO person VALUES (344, 'Nuno Almeida', 47);
+INSERT INTO person VALUES (345, 'Manuel Oliveira', 45);
+INSERT INTO person VALUES (346, 'Fábio Veríssimo', 39);
+iNSERT INTO person VALUES (347, 'Artur Soares Dias', 43);
+INSERT INTO person VALUES (348, 'Manuel Mota', 45);
+INSERT INTO person VALUES (349, 'André Narciso', 39);
+INSERT INTO person VALUES (350, 'Luís Godinho', 37);
+INSERT INTO person VALUES (351, 'Cláudio Pereira', 35);
+INSERT INTO person VALUES (352, 'Hélder Malheiro', 42);
+INSERT INTO person VALUES (353, 'Tiago Martins', 42);
+INSERT INTO person VALUES (354, 'Gustavo Correia', 30);
+INSERT INTO person VALUES (355, 'Rui Costa', 46);
+Insert INTO person VALUES (356, 'António Nobre', 33);
+INSERT INTO person VALUES (357, 'Miguel Nogueira', 28),;
+INSERT INTO person VALUES (358, 'Carlos Macedo', 36);
+INSERT INTO person VALUES (359, 'Hélder Carvalho', 29);
+INSERT INTO person VALUES (360, 'Ricardo Baixinho', 35);
+INSERT INTO person VALUES (361, 'João Gonçalves', 31);
+INSERT INTO person VALUES (362, 'Vítor Ferreira', 34);
+INSERT INTO person VALUES (363, 'Bruno Costa', 29);
+INSERT INTO person VALUES (364, 'Pierre Gaillouste', 33);
+INSERT INTO person VALUES (365, 'Bastien Dechepy', 36);
+INSERT INTO person VALUES (366, 'Bruno José Costa', 31);
+
+INSERT INTO referee VALUES (343);
+INSERT INTO referee VALUES (344);
+INSERT INTO referee VALUES (345);
+INSERT INTO referee VALUES (346);
+INSERT INTO referee VALUES (347);
+INSERT INTO referee VALUES (348);
+INSERT INTO referee VALUES (349);
+INSERT INTO referee VALUES (350);
+INSERT INTO referee VALUES (351);
+INSERT INTO referee VALUES (352);
+INSERT INTO referee VALUES (353);
+INSERT INTO referee VALUES (354);
+INSERT INTO referee VALUES (355);
+INSERT INTO referee VALUES (356);
+INSERT INTO referee VALUES (357);
+INSERT INTO referee VALUES (358);
+INSERT INTO referee VALUES (359);
+INSERT INTO referee VALUES (360);
+INSERT INTO referee VALUES (361);
+INSERT INTO referee VALUES (362);
+INSERT INTO referee VALUES (363);
+INSERT INTO referee VALUES (364);
+INSERT INTO referee VALUES (365);
+INSERT INTO referee VALUES (366);
