@@ -28,6 +28,7 @@ create table league (
 create table round_ (  
     nr integer not null,
     league_yr integer not null,
+    constraint round_number_check check (nr >= 1 and nr <= 34),
     constraint round__pk primary key (nr),
     constraint round__fk foreign key (league_yr) references league (yr)
     on delete cascade
@@ -37,6 +38,7 @@ create table round_ (
 create table team (  
     name_ varchar(50) not null,
     stadium_name varchar(50) not null,
+    constraint name_unique unique (name_),
     constraint team_pk primary key (name_)
 );  
 
@@ -45,6 +47,8 @@ create table stadium (
     location_ varchar(50),  
     capacity integer,  
     team_name varchar(50) not null,  
+    constraint name_unique unique (name_),
+    constraint capacity_check check (capacity > 0),
     constraint stadium_pk primary key (name_),  
     constraint stadium_fk foreign key (team_name) references team (name_)
     on delete cascade
@@ -55,6 +59,7 @@ create table person (
     id integer not null,  
     name_ varchar(50) not null,  
     age integer,  
+    constraint age_check check (age >= 16),
     constraint person_pk primary key (id)  
 );  
 
@@ -62,6 +67,7 @@ create table player (
     id integer not null,  
     nr integer,  
     team_name varchar(50) not null,  
+    constraint nr_check check (nr >= 1 and nr <= 99),
     constraint player_pk primary key (id),
     constraint player_fk foreign key (id) references person (id)
     on delete cascade
@@ -121,7 +127,7 @@ create table game (
 create table event_ (  
     id integer not null,  
     player_id integer not null,  
-    game_id integer not null,  
+    game_id integer not null,
     constraint event__pk primary key (id),  
     constraint event__fk1 foreign key (player_id) references player (id)
     on delete cascade
