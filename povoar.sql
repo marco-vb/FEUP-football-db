@@ -121,6 +121,8 @@ INSERT INTO person VALUES (17, 'Tony Martinez', 25);
 INSERT INTO player VALUES (17, 29, 'Porto');
 INSERT INTO person VALUES (18, 'Bruno Costa', 25);
 INSERT INTO player VALUES (18, 28, 'Porto');
+INSERT INTO person VALUES (388, 'André Franco', 24);
+INSERT INTO player VALUES (388, 20, 'Porto');
 INSERT INTO person VALUES (19, 'Sérgio Conceição', 48);
 INSERT INTO coach VALUES  (19, 'Porto')
 
@@ -161,13 +163,15 @@ INSERT INTO person VALUES (36, 'Diogo Gonçalves', 25);
 INSERT INTO player VALUES (36, 17, 'Benfica');
 INSERT INTO person VALUES (37, 'Mihailo Ristić', 27);
 INSERT INTO player VALUES (37, 23, 'Benfica');
+INSERT INTO person VALUES (370, 'Julian Weigl', 27);
+INSERT INTO player VALUES (370, 28, 'Benfica');
 INSERT INTO person VALUES (38, 'Roger Schmidt', 55);
 INSERT INTO coach VALUES  (38, 'Benfica');
 
 --Braga
 INSERT INTO person VALUES (39, 'Matheus Magalhães', 30);
 INSERT INTO player VALUES (39, 1, 'Braga');
-INSERT INTO person VALUES (40, 'Fabiano Souza', 22);
+INSERT INTO person VALUES (40, 'Fabiano Silva', 22);
 INSERT INTO player VALUES (40, 70, 'Braga');
 INSERT INTO person VALUES (41, 'Vitor Tormena', 26);
 INSERT INTO player VALUES (41, 3, 'Braga');
@@ -201,6 +205,12 @@ INSERT INTO person VALUES (55, 'Sikou Niakaté', 23);
 INSERT INTO player VALUES (55, 4, 'Braga');
 INSERT INTO person VALUES (56, 'Gorby Baptiste', 20);
 INSERT INTO player VALUES (56, 29, 'Braga');
+INSERT INTO person VALUES (368, 'Abel Ruiz', 22);
+INSERT INTO player VALUES (368, 9, 'Braga');
+INSERT INTO person VALUES (380, 'Diego Lainez', 22);
+INSERT INTO player VALUES (380, 18, 'Braga');
+INSERT INTO person VALUES (381, 'André Castro', 34);
+INSERT INTO player VALUES (381, 88, 'Braga');
 INSERT INTO person VALUES (57, 'Artur Jorge', 50);
 INSERT INTO coach VALUES  (57, 'Braga');
 
@@ -241,6 +251,14 @@ INSERT INTO person VALUES (74, 'José Marsà', 20);
 INSERT INTO player VALUES (74, 63, 'Sporting');
 INSERT INTO person VALUES (75, 'Diogo Travassos', 18);
 INSERT INTO player VALUES (75, 97, 'Sporting');
+INSERT INTO person VALUES (367, 'Matheus Nunes', 24);
+INSERT INTO player VALUES (367, 8, 'Sporting');
+INSERT INTO person VALUES (375, 'Neto', 34);
+INSERT INTO player VALUES (375, 13, 'Sporting');
+INSERT INTO person VALUES (385, 'Rochinha', 27);
+INSERT INTO player VALUES (385, 16, 'Sporting');
+INSERT INTO person VALUES (386, 'Ricardo Esgaio', 29);
+INSERT INTO player VALUES (386, 47, 'Sporting');
 INSERT INTO person VALUES (76, 'Rúben Amorim', 37);
 INSERT INTO coach VALUES  (76, 'Sporting');
 
@@ -271,7 +289,7 @@ INSERT INTO person VALUES (88, 'Diogo Pinto', 10);
 INSERT INTO player VALUES (88, 23, 'Casa Pia');
 INSERT INTO person VALUES (89, 'Clayton Silva', 23);
 INSERT INTO player VALUES (89, 99, 'Casa Pia');
-INSERT INTO person VALUES (90, 'Yan Etki', 25);
+INSERT INTO person VALUES (90, 'Yan Eteki', 25);
 INSERT INTO player VALUES (90, 88, 'Casa Pia');
 INSERT INTO person VALUES (91, 'Vitó', 25);
 INSERT INTO player VALUES (91, 18, 'Casa Pia');
@@ -281,6 +299,10 @@ INSERT INTO person VALUES (93, 'João Bravim', 24);
 INSERT INTO player VALUES (93, 1, 'Casa Pia');
 INSERT INTO person VALUES (94, 'Rogério Fernandes', 20);
 INSERT INTO player VALUES (94, 21, 'Casa Pia');
+INSERT INTO person VALUES (374, 'Anderson Cordeiro', 24);
+INSERT INTO player VALUES (374, 70, 'Casa Pia');
+INSERT INTO person VALUES (384, 'Romário Baro', 22);
+INSERT INTO player VALUES (384, 17, 'Casa Pia');
 INSERT INTO person VALUES (95, 'Filipe Martins', 44);
 INSERT INTO coach VALUES  (95, 'Casa Pia');
 
@@ -321,6 +343,16 @@ INSERT INTO person VALUES (112, 'Nicolas Janvier', 24);
 INSERT INTO player VALUES (112, 98, 'Vitória');
 INSERT INTO person VALUES (113, 'Matheus Índio', 23);
 INSERT INTO player VALUES (113, 23, 'Vitória');
+INSERT INTO person VALUES (371, 'André Silva', 25);
+INSERT INTO player VALUES (371, 17, 'Vitória');
+INSERT INTO person VALUES (372, 'Hélder Sá', 20);
+INSERT INTO player VALUES (372, 5, 'Vitória');
+INSERT INTO person VALUES (373, 'Alfa Semedo', 25);
+INSERT INTO player VALUES (373, 30, 'Vitória');
+INSERT INTO person VALUES (382, 'Afonso Freitas', 22);
+INSERT INTO player VALUES (382, 72, 'Vitória');
+INSERT INTO person VALUES (383, 'Jorge Fernandes', 25);
+INSERT INTO player VALUES (383, 44, 'Vitória');
 INSERT INTO person VALUES (114, 'Moreno', 41);
 INSERT INTO coach VALUES  (114, 'Vitória');
 
@@ -361,6 +393,8 @@ INSERT INTO person VALUES (131, 'Carlinhos', 28);
 INSERT INTO player VALUES (131, 76, 'Portimonense');
 INSERT INTO person VALUES (132, 'Ricardo Matos', 22);
 INSERT INTO player VALUES (132, 17, 'Portimonense');
+INSERT INTO person VALUES (387, 'Mohamed Diaby', 26);
+INSERT INTO player VALUES (387, 24, 'Portimonense');
 INSERT INTO person VALUES (133, 'Paulo Sérgio', 54);
 INSERT INTO coach VALUES  (133, 'Portimonense');
 
@@ -401,6 +435,8 @@ INSERT INTO person VALUES (150, 'Bruno Marques', 23);
 INSERT INTO player VALUES (150, 9, 'Arouca');
 INSERT INTO person VALUES (151, 'Oday Dabbagh', 23);
 INSERT INTO player VALUES (151, 15, 'Arouca');
+INSERT INTO person VALUES (379, 'Rafael Fernandes', 20);
+INSERT INTO player VALUES (379, 64, 'Arouca');
 INSERT INTO person VALUES (152, 'Armando Evangelista', 49);
 INSERT INTO coach VALUES  (152, 'Arouca');
 
@@ -419,7 +455,7 @@ INSERT INTO person VALUES (158, 'João Mendes', 28);
 INSERT INTO player VALUES (158, 8, 'Chaves');
 INSERT INTO person VALUES (159, 'João Teixiera', 28);
 INSERT INTO player VALUES (159, 10, 'Chaves');
-INSERT INTO person VALUES (160, 'Ricardo Guima', 27);
+INSERT INTO person VALUES (160, 'Ricardo Guimarães', 27);
 INSERT INTO player VALUES (160, 21, 'Chaves');
 INSERT INTO person VALUES (161, 'Juninho Vieira', 25);
 INSERT INTO player VALUES (161, 20, 'Chaves');
@@ -441,6 +477,14 @@ INSERT INTO person VALUES (169, 'Luther Singh', 25);
 INSERT INTO player VALUES (169, 7, 'Chaves');
 INSERT INTO person VALUES (170, 'Issah Abass', 24);
 INSERT INTO player VALUES (170, 17, 'Chaves');
+INSERT INTO person VALUES (369, 'Bachi', 24);
+INSERT INTO player VALUES (369, 11, 'Chaves');
+INSERT INTO person VALUES (376, 'Kevin', 25);
+INSERT INTO player VALUES (376, 6, 'Chaves');
+INSERT INTO person VALUES (377, 'Euller', 27);
+INSERT INTO player VALUES (377, 16, 'Chaves');
+INSERT INTO person VALUES (378, 'Patrick Fernandes', 28);
+INSERT INTO player VALUES (378, 9, 'Chaves');
 INSERT INTO person VALUES (171, 'Vitor Campelos', 47);
 INSERT INTO coach VALUES  (171, 'Chaves');
 
@@ -507,15 +551,76 @@ INSERT INTO game VALUES (7, '07/08/2022', 345, 'Estádio Municipal Eng.º Manuel
 --INSERT INTO game VALUES (9, '08/08/2022', 349, 'Estádio Cidade de Barcelos', 'Gil Vicente', 'Paços de Ferreira', 1);
 
 --Round 1 Events
-INSERT INTO event VALUES (1, 0, 0);
-INSERT INTO event VALUES (2, 0, 0);
-INSERT INTO event VALUES (3, 0, 0);
-INSERT INTO event VALUES (4, 0, 0);
-INSERT INTO event VALUES (5, 0, 0);
-INSERT INTO event VALUES (6, 0, 0);
-INSERT INTO event VALUES (7, 0, 0);
-INSERT INTO event VALUES (8, 0, 0);
-INSERT INTO event VALUES (9, 0, 0);
+
+--Game 1 Events
+INSERT INTO event VALUES (1, 136, 1);
+INSERT INTO yellow_card VALUES (1);
+INSERT INTO event VALUES (2, 32, 1);
+INSERT INTO goal VALUES (2);
+INSERT INTO event VALUES (3, 31, 1);
+INSERT INTO goal VALUES (3);
+INSERT INTO event VALUES (4, 138, 1);
+INSERT INTO red_card VALUES (4);
+INSERT INTO event VALUES (5, 28, 1);
+INSERT INTO goal VALUES (5);
+INSERT INTO event VALUES (6, 26, 1);
+INSERT INTO yellow_card VALUES (6);
+INSERT INTO event VALUES (7, 370, 1);
+INSERT INTO yellow_card VALUES (7);
+INSERT INTO event VALUES (8, 31, 1);
+INSERT INTO yellow_card VALUES (8);
+INSERT INTO event VALUES (9, 31, 1);
+INSERT INTO goal VALUES (9);
+
+
+
+--Game 6 Events
+INSERT INTO event VALUES (10, 67, 6);
+INSERT INTO goal VALUES (10);
+INSERT INTO event VALUES (11, 46, 6);
+INSERT INTO goal VALUES (11);
+INSERT INTO event VALUES (12, 69, 6);
+INSERT INTO goal VALUES (12);
+INSERT INTO event VALUES (13, 55, 6);
+INSERT INTO yellow_card VALUES (13);
+INSERT INTO event VALUES (14, 44, 6);
+INSERT INTO yellow_card VALUES (14);
+INSERT INTO event VALUES (15, 55, 6);
+INSERT INTO goal VALUES (15);
+INSERT INTO event VALUES (16, 367, 6);
+INSERT INTO yellow_card VALUES (16);
+INSERT INTO event VALUES (17, 67, 6);
+INSERT INTO yellow_card VALUES (17);
+INSERT INTO event VALUES (18, 368, 6);
+INSERT INTO goal VALUES (18);
+
+--Game 7 Events
+INSERT INTO event VALUES (19, 369, 7);
+INSERT INTO yellow_card VALUES (19);
+INSERT INTO event VALUES (20, 97, 7);
+INSERT INTO yellow_card VALUES (20);
+INSERT INTO event VALUES (21, 39, 7);
+INSERT INTO yellow_card VALUES (21);
+INSERT INTO event VALUES (22, 99, 7);
+INSERT INTO yellow_card VALUES (22);
+INSERT INTO event VALUES (23, 371, 7);
+INSERT INTO goal VALUES (23);
+INSERT INTO event VALUES (24, 372, 7);
+INSERT INTO yellow_card VALUES (24);
+INSERT INTO event VALUES (25, 98, 7);
+INSERT INTO yellow_card VALUES (25);
+INSERT INTO event VALUES (26, 156, 7);
+INSERT INTO yellow_card VALUES (26);
+INSERT INTO event VALUES (27, 373, 7);
+INSERT INTO red_card VALUES (27);
+INSERT INTO event VALUES (28, 100, 7);
+INSERT INTO yellow_card VALUES (28);
+INSERT INTO event VALUES (29, 96, 7);
+INSERT INTO yellow_card VALUES (29);
+INSERT INTO event VALUES (30, 113, 7);
+INSERT INTO yellow_card VALUES (30);
+INSERT INTO event VALUES (31, 113, 7);
+INSERT INTO yellow_card VALUES (31);
 
 
 --Round 2
@@ -529,16 +634,29 @@ INSERT INTO game VALUES (11, '13/08/2022', 353, 'Estádio Pina Manique', 'Casa P
 --INSERT INTO game VALUES (17, '15/08/2022', 344, 'Estádio Municipal de Arouca', 'Arouca', 'Gil Vicente', 2);
 --INSERT INTO game VALUES (18, '15/08/2022', 343, 'Estádio Capital do Móvel', 'Paços de Ferreira', 'Portimonense', 2);
 
-INSERT INTO event VALUES (10, 0, 0);
-INSERT INTO event VALUES (11, 0, 0);
-INSERT INTO event VALUES (12, 0, 0);
-INSERT INTO event VALUES (13, 0, 0);
-INSERT INTO event VALUES (14, 0, 0);
-INSERT INTO event VALUES (15, 0, 0);
-INSERT INTO event VALUES (16, 0, 0);
-INSERT INTO event VALUES (17, 0, 0);
-INSERT INTO event VALUES (18, 0, 0);
-INSERT INTO event VALUES (19, 0, 0);
+--Game 11 Events
+INSERT INTO event VALUES (32, 84, 11);
+INSERT INTO yellow_card VALUES (32);
+INSERT INTO event VALUES (33, 87, 11);
+INSERT INTO yellow_card VALUES (33);
+INSERT INTO event VALUES (34, 23, 11);
+INSERT INTO yellow_card VALUES (34);
+INSERT INTO event VALUES (35, 26, 11);
+INSERT INTO yellow_card VALUES (35);
+INSERT INTO event VALUES (36, 83, 11);
+INSERT INTO yellow_card VALUES (36);
+INSERT INTO event VALUES (37, 85, 11);
+INSERT INTO yellow_card VALUES (37);
+INSERT INTO event VALUES (38, 30, 11);
+INSERT INTO yellow_card VALUES (38);
+INSERT INTO event VALUES (39, 78, 11);
+INSERT INTO yellow_card VALUES (39);
+INSERT INTO event VALUES (40, 374, 11);
+INSERT INTO yellow_card VALUES (40);
+INSERT INTO event VALUES (41, 23, 11);
+INSERT INTO yellow_card VALUES (41);
+INSERT INTO event VALUES (42, 31, 11);
+INSERT INTO yellow_card VALUES (42);
 
 
 --Round 3
@@ -552,16 +670,48 @@ INSERT INTO game VALUES (25, '21/08/2022', 360, 'Estádio Municipal de Portimão
 --INSERT INTO game VALUES (26, '22/08/2022', 351, 'Estádio Cidade de Barcelos', 'Gil Vicente', 'Famalicão', 3);
 --INSERT INTO game VALUES (27, '30/08/2022', 347, 'Estádio da Luz', 'Benfica', 'Paços de Ferreira', 3);
 
-INSERT INTO event VALUES (20, 0, 0);
-INSERT INTO event VALUES (21, 0, 0);
-INSERT INTO event VALUES (22, 0, 0);
-INSERT INTO event VALUES (23, 0, 0);
-INSERT INTO event VALUES (24, 0, 0);
-INSERT INTO event VALUES (25, 0, 0);
-INSERT INTO event VALUES (26, 0, 0);
-INSERT INTO event VALUES (27, 0, 0);
-INSERT INTO event VALUES (28, 0, 0);
-INSERT INTO event VALUES (29, 0, 0);
+--Game 22 Events
+INSERT INTO event VALUES (43, 64, 22);
+INSERT INTO yellow_card VALUES (43);
+INSERT INTO event VALUES (44, 375, 22);
+INSERT INTO yellow_card VALUES (44);
+INSERT INTO event VALUES (45, 4, 22);
+INSERT INTO yellow_card VALUES (45);
+INSERT INTO event VALUES (46, 65, 22);
+INSERT INTO yellow_card VALUES (46);
+INSERT INTO event VALUES (47, 9, 22);
+INSERT INTO goal VALUES (47);
+INSERT INTO event VALUES (48, 60, 22);
+INSERT INTO red_card VALUES (48);
+INSERT INTO event VALUES (49, 63, 22);
+INSERT INTO yellow_card VALUES (49);
+INSERT INTO event VALUES (50, 6, 22);
+INSERT INTO goal VALUES (50);
+INSERT INTO event VALUES (51, 11, 22);
+INSERT INTO goal VALUES (51);
+
+--Game 25 Events
+INSERT INTO event VALUES (52, 122, 25);
+INSERT INTO yellow_card VALUES (52);
+INSERT INTO event VALUES (53, 116, 25);
+INSERT INTO yellow_card VALUES (53);
+INSERT INTO event VALUES (54, 106, 25);
+INSERT INTO goal VALUES (54);
+INSERT INTO event VALUES (55, 125, 25);
+INSERT INTO goal VALUES (55);
+INSERT INTO event VALUES (56, 118, 25);
+INSERT INTO yellow_card VALUES (56);
+INSERT INTO event VALUES (57, 96, 25);
+INSERT INTO yellow_card VALUES (57);
+INSERT INTO event VALUES (58, 124, 25);
+INSERT INTO goal VALUES (58);
+INSERT INTO event VALUES (59, 103, 25);
+INSERT INTO yellow_card VALUES (59);
+INSERT INTO event VALUES (60, 121, 25);
+INSERT INTO yellow_card VALUES (60);
+INSERT INTO event VALUES (61, 112, 25);
+INSERT INTO yellow_card VALUES (61);
+
 
 --Round 4
 --INSERT INTO game VALUES (28, '26/08/2022', 358, 'Estádio Capital do Móvel', 'Paços de Ferreira', 'Estoril Praia', 4);
@@ -574,16 +724,70 @@ INSERT INTO game VALUES (33, '28/08/2022', 354, 'Estádio Municipal de Arouca', 
 INSERT INTO game VALUES (35, '29/08/2022', 352, 'Estádio D. Afonso Henriques', 'Vitória', 'Casa Pia', 4);
 --INSERT INTO game VALUES (36, '29/08/2022', 345, 'Estádio do FC Vizela', 'Vizela', 'Gil Vicente', 4);
 
-INSERT INTO event VALUES (30, 0, 0);
-INSERT INTO event VALUES (31, 0, 0);
-INSERT INTO event VALUES (32, 0, 0);
-INSERT INTO event VALUES (33, 0, 0);
-INSERT INTO event VALUES (34, 0, 0);
-INSERT INTO event VALUES (35, 0, 0);
-INSERT INTO event VALUES (36, 0, 0);
-INSERT INTO event VALUES (37, 0, 0);
-INSERT INTO event VALUES (38, 0, 0);
-INSERT INTO event VALUES (39, 0, 0);
+--Game 31 Events
+INSERT INTO event VALUES (62, 68, 31);
+INSERT INTO yellow_card VALUES (62);
+INSERT INTO event VALUES (63, 64, 31);
+INSERT INTO yellow_card VALUES (63);
+INSERT INTO event VALUES (64, 155, 31);
+INSERT INTO goal VALUES (64);
+INSERT INTO event VALUES (65, 161, 31);
+INSERT INTO goal VALUES (65);
+INSERT INTO event VALUES (66, 67, 31);
+INSERT INTO yellow_card VALUES (66);
+INSERT INTO event VALUES (67, 376, 31);
+INSERT INTO yellow_card VALUES (67);
+INSERT INTO event VALUES (68, 65, 31);
+INSERT INTO yellow_card VALUES (68);
+INSERT INTO event VALUES (69, 377, 31);
+INSERT INTO yellow_card VALUES (69);
+INSERT INTO event VALUES (70, 378, 31);
+INSERT INTO red_card VALUES (70);
+INSERT INTO event VALUES (71, 61, 31);
+INSERT INTO yellow_card VALUES (71);
+
+--Game 33 Events
+INSERT INTO event VALUES (72, 46, 33);
+INSERT INTO goal VALUES (72);
+INSERT INTO event VALUES (73, 48, 33);
+INSERT INTO goal VALUES (73);
+INSERT INTO event VALUES (74, 379, 33);
+INSERT INTO yellow_card VALUES (74);
+INSERT INTO event VALUES (75, 45, 33);
+INSERT INTO yellow_card VALUES (75);
+INSERT INTO event VALUES (76, 44, 33);
+INSERT INTO yellow_card VALUES (76);
+INSERT INTO event VALUES (77, 140, 33);
+INSERT INTO yellow_card VALUES (77);
+INSERT INTO event VALUES (78, 146, 33);
+INSERT INTO yellow_card VALUES (78);
+INSERT INTO event VALUES (79, 48, 33);
+INSERT INTO goal VALUES (79);
+INSERT INTO event VALUES (80, 49, 33);
+INSERT INTO goal VALUES (80);
+INSERT INTO event VALUES (81, 380, 33);
+INSERT INTO yellow_card VALUES (81);
+INSERT INTO event VALUES (82, 381, 33);
+INSERT INTO goal VALUES (82);
+INSERT INTO event VALUES (83, 380, 33);
+INSERT INTO goal VALUES (83);
+
+--Game 35 Events
+INSERT INTO event VALUES(84, 85, 35);
+INSERT INTO goal VALUES (84);
+INSERT INTO event VALUES(85, 80, 35);
+INSERT INTO yellow_card VALUES (85);
+INSERT INTO event VALUES(86, 103, 35);
+INSERT INTO yellow_card VALUES (86);
+INSERT INTO event VALUES(87, 77, 35);
+INSERT INTO yellow_card VALUES (87);
+INSERT INTO event VALUES(88, 96, 35);
+INSERT INTO yellow_card VALUES (88);
+INSERT INTO event VALUES(89, 90, 35);
+INSERT INTO yellow_card VALUES (89);
+INSERT INTO event VALUES(90, 33, 35);
+INSERT INTO goal VALUES (90);
+
 
 --Round 5
 --INSERT INTO game VALUES (37, '02/09/2022', 346, 'Estádio da Luz', 'Benfica', 'Vizela', 5);
@@ -596,16 +800,29 @@ INSERT INTO game VALUES (41, '04/09/2022', 358, 'Estádio Pina Manique', 'Casa P
 --INSERT INTO game VALUES (44, '05/09/2022', 351, 'Estádio do Bessa', 'Boavista', 'Paços de Ferreira', 5);
 --INSERT INTO game VALUES (45, '05/09/2022', 352, 'Estádio Municipal Eng.º Manuel Branco Teixeira', 'Chaves', 'Rio Ave', 5);
 
-INSERT INTO event VALUES (40, 0, 0);
-INSERT INTO event VALUES (41, 0, 0);
-INSERT INTO event VALUES (42, 0, 0);
-INSERT INTO event VALUES (43, 0, 0);
-INSERT INTO event VALUES (44, 0, 0);
-INSERT INTO event VALUES (45, 0, 0);
-INSERT INTO event VALUES (46, 0, 0);
-INSERT INTO event VALUES (47, 0, 0);
-INSERT INTO event VALUES (48, 0, 0);
-INSERT INTO event VALUES (49, 0, 0);
+--Game 39 Events
+INSERT INTO event VALUES (91, 98, 39);
+INSERT INTO yellow_card VALUES (91);
+INSERT INTO event VALUES (92, 382, 39);
+INSERT INTO yellow_card VALUES (92);
+INSERT INTO event VALUES (93, 383, 39);
+INSERT INTO yellow_card VALUES (93);
+INSERT INTO event VALUES (94, 44, 39);
+INSERT INTO yellow_card VALUES (94);
+INSERT INTO event VALUES (95, 96, 39);
+INSERT INTO yellow_card VALUES (95);
+INSERT INTO event VALUES (96, 40, 39);
+INSERT INTO goal VALUES (96);
+INSERT INTO event VALUES (97, 368, 39);
+INSERT INTO goal VALUES (97);
+
+--Game 41 Events
+INSERT INTO event VALUES (98, 384, 41);
+INSERT INTO yellow_card VALUES (98);
+INSERT INTO event VALUES (99, 78, 41);
+INSERT INTO yellow_card VALUES (99);
+
+
 
 --Round 6
 --INSERT INTO game VALUES (46, '09/09/2022', 343, 'Estádio D. Afonso Henriques', 'Vitória', 'Santa Clara', 6);
@@ -618,13 +835,40 @@ INSERT INTO game VALUES (49, '10/09/2022', 356, 'Estádio do Dragão', 'Porto', 
 --INSERT INTO game VALUES (53, '11/09/2022', 350, 'Estádio dos Arcos', 'Rio Ave', 'Braga', 6);
 --INSERT INTO game VALUES (54, '12/09/2022', 348, 'Estádio do FC Vizela', 'Vizela', 'Estoril Praia', 6);
 
-INSERT INTO event VALUES (50, 0, 0);
-INSERT INTO event VALUES (51, 0, 0);
-INSERT INTO event VALUES (52, 0, 0);
-INSERT INTO event VALUES (53, 0, 0);
-INSERT INTO event VALUES (54, 0, 0);
-INSERT INTO event VALUES (55, 0, 0);
-INSERT INTO event VALUES (56, 0, 0);
-INSERT INTO event VALUES (57, 0, 0);
-INSERT INTO event VALUES (58, 0, 0);
-INSERT INTO event VALUES (59, 0, 0);
+--Game 48 Events
+INSERT INTO event VALUES (100, 66, 48);
+INSERT INTO goal VALUES (100);
+INSERT INTO event VALUES (101, 66, 48);
+INSERT INTO goal VALUES (101);
+INSERT INTO event VALUES (102, 69, 48);
+INSERT INTO yellow_card VALUES (102);
+INSERT INTO event VALUES (103, 118, 48);
+INSERT INTO yellow_card VALUES (103);
+INSERT INTO event VALUES (104, 385, 48);
+INSERT INTO yellow_card VALUES (104);
+INSERT INTO event VALUES (105, 120, 48);
+INSERT INTO yellow_card VALUES (105);
+INSERT INTO event VALUES (106, 67, 48);
+INSERT INTO goal VALUES (106);
+INSERT INTO event VALUES (107, 69, 48);
+INSERT INTO goal VALUES (107);
+INSERT INTO event VALUES (108, 386, 48);
+INSERT INTO yellow_card VALUES (108);
+INSERT INTO event VALUES (109, 387, 48);
+INSERT INTO yellow_card VALUES (109);
+
+--Game 49 Events
+INSERT INTO event VALUES (110, 8, 49);
+INSERT INTO goal VALUES (110);
+INSERT INTO event VALUES (111, 160, 49);
+INSERT INTO yellow_card VALUES (111);
+INSERT INTO event VALUES (112, 6, 49);
+INSERT INTO yellow_card VALUES (112);
+INSERT INTO event VALUES (113, 168, 49);
+INSERT INTO yellow_card VALUES (113);
+INSERT INTO event VALUES (114, 9, 49);
+INSERT INTO yellow_card VALUES (114);
+INSERT INTO event VALUES (115, 156, 49);
+INSERT INTO yellow_card VALUES (115);
+INSERT INTO event VALUES (116, 388, 49);
+INSERT INTO goal VALUES (116);
