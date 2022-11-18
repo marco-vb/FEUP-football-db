@@ -1,6 +1,3 @@
-.headers on
-.mode columns
-
 PRAGMA foreign_keys = on;
 
 drop table if exists league;
@@ -30,10 +27,10 @@ create table game (
     away_team_name varchar(50) not null,
     round_id integer not null,
     constraint game_pk primary key (id),
-    constraint game_fk1 foreign key (stadium_name) references stadium (name_)
-    constraint game_fk2 foreign key (referee_id) references referee (id)
-    constraint game_fk3 foreign key (home_team_name) references team (name_)
-    constraint game_fk4 foreign key (away_team_name) references team (name_)
+    constraint game_fk1 foreign key (stadium_name) references stadium (name_),
+    constraint game_fk2 foreign key (referee_id) references referee (id),
+    constraint game_fk3 foreign key (home_team_name) references team (name_),
+    constraint game_fk4 foreign key (away_team_name) references team (name_),
     constraint game_fk5 foreign key (round_id) references round_ (nr)
 );
 
@@ -53,7 +50,7 @@ create table stadium (
     location_ varchar(50),
     capacity integer,
     team_name varchar(50) not null,
-    constraint stadium_pk primary key (name_)
+    constraint stadium_pk primary key (name_),
     constraint stadium_fk foreign key (team_name) references team (name_)
 );
 
@@ -72,7 +69,7 @@ create table player (
     id integer not null,
     nr integer,
     team_name varchar(50) not null,
-    constraint player_pk primary key (id) references person (id),
+    constraint player_pk primary key (id), references person (id),
     constraint player_fk foreign key (team_name) references team (name_)
 );
 
@@ -81,7 +78,7 @@ drop table if exists coach;
 create table coach (
     id integer not null,
     team_name varchar(50) not null,
-    constraint coach_pk primary key (id) references person (id),
+    constraint coach_pk primary key (id), references person (id),
     constraint coach_fk foreign key (team_name) references team (name_)
 );
 
@@ -89,7 +86,7 @@ create table coach (
 drop table if exists referee;
 create table referee (
     id integer not null,
-    constraint referee_pk primary key (id) references person (id)
+    constraint referee_pk primary key (id), references person (id)
 );
 
 
@@ -99,7 +96,7 @@ create table event_ (
     player_id integer not null,
     game_id integer not null,
     constraint event__pk primary key (id),
-    constraint event__fk1 foreign key (player_id) references player (id)
+    constraint event__fk1 foreign key (player_id) references player (id),
     constraint event__fk2 foreign key (game_id) references game (id)
 );
 
@@ -108,19 +105,19 @@ drop table if exists goal;
 create table goal (
     id integer not null,
     own_goal boolean default false not null,
-    constraint goal_pk primary key (id) references event_ (id)
+    constraint goal_pk primary key (id), references event_ (id)
 );
 
 
 drop table if exists red_card;
 create table red_card (
     id integer not null,
-    constraint red_card_pk primary key (id) references event_ (id)
+    constraint red_card_pk primary key (id), references event_ (id)
 );
 
 
 drop table if exists yellow_card;
 create table yellow_card (
     id integer not null,
-    constraint yellow_card_pk primary key (id) references event_ (id)
+    constraint yellow_card_pk primary key (id), references event_ (id)
 );
