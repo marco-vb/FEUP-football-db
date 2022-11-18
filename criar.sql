@@ -1,5 +1,6 @@
-.mode columns 
 .headers on 
+.mode columns 
+
  
 PRAGMA foreign_keys = on;  
   
@@ -98,7 +99,7 @@ create table game (
     home_team_name varchar(50) not null,  
     away_team_name varchar(50) not null,  
     round_id integer not null,
-    
+
     constraint game_pk primary key (id),  
     constraint game_fk1 foreign key (stadium_name) references stadium (name_)
     on delete cascade
