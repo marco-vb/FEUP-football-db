@@ -1,7 +1,11 @@
 PRAGMA foreign_keys = on;
 
+
+--League
 INSERT INTO league VALUES (2023, 'BWIN');
 
+
+--Rounds
 INSERT INTO round_ VALUES (1, 2023);
 INSERT INTO round_ VALUES (2, 2023);
 INSERT INTO round_ VALUES (3, 2023);
@@ -38,27 +42,49 @@ INSERT INTO round_ VALUES (33, 2023);
 INSERT INTO round_ VALUES (34, 2023);
 
 
---Stadiums
+--Teams
 INSERT INTO team VALUES ('Porto', 'Estádio do Dragão');
 INSERT INTO team VALUES ('Sporting', 'Estádio José Alvalade');
 INSERT INTO team VALUES ('Benfica', 'Estádio da Luz');
 INSERT INTO team VALUES ('Braga', 'Estádio Municipal de Braga');
-INSERT INTO team VALUES ('Boavista', 'Estádio do Bessa');
+--INSERT INTO team VALUES ('Boavista', 'Estádio do Bessa');
 INSERT INTO team VALUES ('Vitória', 'Estádio de D. Afonso Henriques');
-INSERT INTO team VALUES ('Paços de Ferreira', 'Estádio Capital do Móvel');
+--INSERT INTO team VALUES ('Paços de Ferreira', 'Estádio Capital do Móvel');
 INSERT INTO team VALUES ('Arouca', 'Estádio Municipal de Arouca');
-INSERT INTO team VALUES ('Vizela', 'Estádio do FC Vizela');
-INSERT INTO team VALUES ('Famalicão', 'Estádio Municipal de Famalicão');
-INSERT INTO team VALUES ('Santa Clara', 'Estádio de São Miguel');
+--INSERT INTO team VALUES ('Vizela', 'Estádio do FC Vizela');
+--INSERT INTO team VALUES ('Famalicão', 'Estádio Municipal de Famalicão');
+--INSERT INTO team VALUES ('Santa Clara', 'Estádio de São Miguel');
 INSERT INTO team VALUES ('Chaves', 'Estádio Municipal Eng.º Manuel Branco Teixeira');
-INSERT INTO team VALUES ('Estoril Praia', 'Estádio António Coimbra da Mota');
-INSERT INTO team VALUES ('Gil Vicente', 'Estádio Cidade de Barcelos');
-INSERT INTO team VALUES ('Marítimo', 'Estádio dos Barreiros');
+--INSERT INTO team VALUES ('Estoril Praia', 'Estádio António Coimbra da Mota');
+--INSERT INTO team VALUES ('Gil Vicente', 'Estádio Cidade de Barcelos');
+--INSERT INTO team VALUES ('Marítimo', 'Estádio dos Barreiros');
 INSERT INTO team VALUES ('Casa Pia', 'Estádio Pina Manique');
-INSERT INTO team VALUES ('Rio Ave', 'Estádio dos Arcos');
+--INSERT INTO team VALUES ('Rio Ave', 'Estádio dos Arcos');
 INSERT INTO team VALUES ('Portimonense', 'Estádio Municipal de Portimão');
 
---Players and coaches: Porto
+
+--Stadiums
+INSERT INTO stadium VALUES ('Estádio do Dragão', 'Porto', 50000, 'Porto');
+INSERT INTO stadium VALUES ('Estádio José Alvalade', 'Lisboa', 50000, 'Sporting');
+INSERT INTO stadium VALUES ('Estádio da Luz', 'Lisboa', 50000, 'Benfica');
+INSERT INTO stadium VALUES ('Estádio Municipal de Braga', 'Braga', 50000, 'Braga');
+--INSERT INTO stadium VALUES ('Estádio do Bessa', 'Porto', 50000, 'Boavista');
+INSERT INTO stadium VALUES ('Estádio de D. Afonso Henriques', 'Guimarães', 50000, 'Vitória');
+--INSERT INTO stadium VALUES ('Estádio Capital do Móvel', 'Paços de Ferreira', 50000, 'Paços de Ferreira');
+INSERT INTO stadium VALUES ('Estádio Municipal de Arouca', 'Arouca', 50000, 'Arouca');
+--INSERT INTO stadium VALUES ('Estádio do FC Vizela', 'Vizela', 50000, 'Vizela');
+--INSERT INTO stadium VALUES ('Estádio Municipal de Famalicão', 'Famalicão', 50000, 'Famalicão');
+--INSERT INTO stadium VALUES ('Estádio de São Miguel', 'Santa Clara', 50000, 'Santa Clara');
+INSERT INTO stadium VALUES ('Estádio Municipal Eng.º Manuel Branco Teixeira', 'Chaves', 50000, 'Chaves');
+--INSERT INTO stadium VALUES ('Estádio António Coimbra da Mota', 'Estoril', 50000, 'Estoril Praia');
+--INSERT INTO stadium VALUES ('Estádio Cidade de Barcelos', 'Barcelos', 50000, 'Gil Vicente');
+--INSERT INTO stadium VALUES ('Estádio dos Barreiros', 'Funchal', 50000, 'Marítimo');
+INSERT INTO stadium VALUES ('Estádio Pina Manique', 'Lisboa', 50000, 'Casa Pia');
+--INSERT INTO stadium VALUES ('Estádio dos Arcos', 'Vila do Conde', 50000, 'Rio Ave');
+INSERT INTO stadium VALUES ('Estádio Municipal de Portimão', 'Portimão', 50000, 'Portimonense');
+
+--Players and coaches
+--Porto
 INSERT INTO person VALUES (1, 'Diogo Costa', 23);
 INSERT INTO player VALUES (1, 99, 'Porto');
 INSERT INTO person VALUES (2, 'Fábio Cardoso', 28);
@@ -301,9 +327,122 @@ INSERT INTO coach VALUES  (114, 'Vitória');
 --Portimonense
 INSERT INTO person VALUES (115, 'Kosuke Nakamura', 27);
 INSERT INTO player VALUES (115, 32, 'Portimonense');
-INSERT INTO person VALUES (115, 'Fahd Moufi', 27);
-INSERT INTO player VALUES (115, 32, 'Portimonense');
+INSERT INTO person VALUES (116, 'Fahd Moufi', 26);
+INSERT INTO player VALUES (116, 16, 'Portimonense');
+INSERT INTO person VALUES (117, 'Zié Ouattara', 22);
+INSERT INTO player VALUES (117, 3, 'Portimonense');
+INSERT INTO person VALUES (118, 'Pedrão', 25);
+INSERT INTO player VALUES (118, 4, 'Portimonense');
+INSERT INTO person VALUES (119, 'Filipe Relvas', 23);
+INSERT INTO player VALUES (119, 2, 'Portimonense');
+INSERT INTO person VALUES (120, 'Moustapha Seck', 26);
+INSERT INTO player VALUES (120, 14, 'Portimonense');
+INSERT INTO person VALUES (121, 'Ewerton', 29);
+INSERT INTO player VALUES (121, 8, 'Portimonense');
+INSERT INTO person VALUES (122, 'Paulo Estrela', 23);
+INSERT INTO player VALUES (122, 38, 'Portimonense');
+INSERT INTO person VALUES (123, 'Luquinha', 22);
+INSERT INTO player VALUES (123, 20, 'Portimonense');
+INSERT INTO person VALUES (124, 'Yago Cariello', 23);
+INSERT INTO player VALUES (124, 99, 'Portimonense');
+INSERT INTO person VALUES (125, 'Wellinton Junior', 29);
+INSERT INTO player VALUES (125, 93, 'Portimonense');
+INSERT INTO person VALUES (126, 'Berke Ozer', 22);
+INSERT INTO player VALUES (126, 1, 'Portimonense');
+INSERT INTO person VALUES (127, 'Pastor', 22);
+INSERT INTO player VALUES (127, 28, 'Portimonense');
+INSERT INTO person VALUES (128, 'Vinícius Szeuczuk', 25);
+INSERT INTO player VALUES (128, 78, 'Portimonense');
+INSERT INTO person VALUES (129, 'Gonçalo Costa', 22);
+INSERT INTO player VALUES (129, 19, 'Portimonense');
+INSERT INTO person VALUES (130, 'Pedro Sá', 28);
+INSERT INTO player VALUES (130, 21, 'Portimonense');
+INSERT INTO person VALUES (131, 'Carlinhos', 28);
+INSERT INTO player VALUES (131, 76, 'Portimonense');
+INSERT INTO person VALUES (132, 'Ricardo Matos', 22);
+INSERT INTO player VALUES (132, 17, 'Portimonense');
+INSERT INTO person VALUES (133, 'Paulo Sérgio', 54);
+INSERT INTO coach VALUES  (133, 'Portimonense');
 
+--Arouca
+INSERT INTO person VALUES (134, 'de Arruabarrena', 25);
+INSERT INTO player VALUES (134, 12, 'Arouca');
+INSERT INTO person VALUES (135, 'Tiago Esgaio', 27);
+INSERT INTO player VALUES (135, 28, 'Arouca');
+INSERT INTO person VALUES (136, 'Jerome Opoku', 24);
+INSERT INTO player VALUES (136, 3, 'Arouca');
+INSERT INTO person VALUES (137, 'João Basso', 25);
+INSERT INTO player VALUES (137, 13, 'Arouca');
+INSERT INTO person VALUES (138, 'Mateus Quaresma', 26);
+INSERT INTO player VALUES (138, 6, 'Arouca');
+INSERT INTO person VALUES (139, 'Alan Ruiz', 29);
+INSERT INTO player VALUES (139, 10, 'Arouca');
+INSERT INTO person VALUES (140, 'David Simão', 32);
+INSERT INTO player VALUES (140, 5, 'Arouca');
+INSERT INTO person VALUES (141, 'Arsénio Nunes', 33);
+INSERT INTO player VALUES (141, 8, 'Arouca');
+INSERT INTO person VALUES (142, 'André Bukia', 27);
+INSERT INTO player VALUES (142, 7, 'Arouca');
+INSERT INTO person VALUES (143, 'Rafa Mujica', 24);
+INSERT INTO player VALUES (143, 19, 'Arouca');
+INSERT INTO person VALUES (144, 'Antony Alves', 21);
+INSERT INTO player VALUES (144, 11, 'Arouca');
+INSERT INTO person VALUES (145, 'Emilijus Zubas', 32);
+INSERT INTO player VALUES (145, 1, 'Arouca');
+INSERT INTO person VALUES (146, 'Bogdan Milovanov', 24);
+INSERT INTO player VALUES (146, 21, 'Arouca');
+INSERT INTO person VALUES (147, 'Uri Busquets', 23);
+INSERT INTO player VALUES (147, 14, 'Arouca');
+INSERT INTO person VALUES (148, 'Ismalia Soro', 24);
+INSERT INTO player VALUES (148, 23, 'Arouca');
+INSERT INTO person VALUES (149, 'Morlaye Sylla', 24);
+INSERT INTO player VALUES (149, 2, 'Arouca');
+INSERT INTO person VALUES (150, 'Bruno Marques', 23);
+INSERT INTO player VALUES (150, 9, 'Arouca');
+INSERT INTO person VALUES (151, 'Oday Dabbagh', 23);
+INSERT INTO player VALUES (151, 15, 'Arouca');
+INSERT INTO person VALUES (152, 'Armando Evangelista', 49);
+INSERT INTO coach VALUES  (152, 'Arouca');
+
+--Chaves
+INSERT INTO person VALUES (153, 'Paulo Vitor', 33);
+INSERT INTO player VALUES (153, 1, 'Chaves');
+INSERT INTO person VALUES (154, 'João Correia', 26);
+INSERT INTO player VALUES (154, 77, 'Chaves');
+INSERT INTO person VALUES (155, 'Steven Vitoria', 35);
+INSERT INTO player VALUES (155, 19, 'Chaves');
+INSERT INTO person VALUES (156, 'Nélson Monte', 27);
+INSERT INTO player VALUES (156, 3, 'Chaves');
+INSERT INTO person VALUES (157, 'Bruno Langa', 25);
+INSERT INTO player VALUES (157, 5, 'Chaves');
+INSERT INTO person VALUES (158, 'João Mendes', 28);
+INSERT INTO player VALUES (158, 8, 'Chaves');
+INSERT INTO person VALUES (159, 'João Teixiera', 28);
+INSERT INTO player VALUES (159, 10, 'Chaves');
+INSERT INTO person VALUES (160, 'Ricardo Guima', 27);
+INSERT INTO player VALUES (160, 21, 'Chaves');
+INSERT INTO person VALUES (161, 'Juninho Vieira', 25);
+INSERT INTO player VALUES (161, 20, 'Chaves');
+INSERT INTO person VALUES (162, 'Héctor Hernández', 27);
+INSERT INTO player VALUES (162, 23, 'Chaves');
+INSERT INTO person VALUES (163, 'Jonny Arriba', 21);
+INSERT INTO player VALUES (163, 28, 'Chaves');
+INSERT INTO person VALUES (164, 'Rodrigo Moura', 26);
+INSERT INTO player VALUES (164, 31, 'Chaves');
+INSERT INTO person VALUES (165, 'Carlos Ponck', 27);
+INSERT INTO player VALUES (165, 26, 'Chaves');
+INSERT INTO person VALUES (166, 'GUilherme', 22);
+INSERT INTO player VALUES (166, 47, 'Chaves');
+INSERT INTO person VALUES (167, 'Eduardo Borges', 20);
+INSERT INTO player VALUES (167, 24, 'Chaves');
+INSERT INTO person VALUES (168, 'Hélder Morim', 21);
+INSERT INTO player VALUES (168, 70, 'Chaves');
+INSERT INTO person VALUES (169, 'Luther Singh', 25);
+INSERT INTO player VALUES (169, 7, 'Chaves');
+INSERT INTO person VALUES (170, 'Issah Abass', 24);
+INSERT INTO player VALUES (170, 17, 'Chaves');
+INSERT INTO person VALUES (171, 'Vitor Campelos', 47);
+INSERT INTO coach VALUES  (171, 'Chaves');
 
 --Round 1 Games
 INSERT INTO game VALUES (1, '05/08/2022', 348, 'Estádio da Luz', 'Benfica', 'Arouca', 1);
