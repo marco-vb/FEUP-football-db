@@ -36,10 +36,7 @@ create table round_ (
 create table team (  
     name_ varchar(50) not null,
     stadium_name varchar(50) not null,
-    constraint team_pk primary key (name_),
-    constraint team_fk foreign key (stadium_name) references stadium (name_)
-    on delete cascade
-    on update restrict
+    constraint team_pk primary key (name_)
 );  
 
 create table stadium (  
@@ -95,12 +92,13 @@ create table referee (
 
 create table game (  
     id integer not null,  
-    date_ varchar(10) not null,  
+    date_ varchar(20) not null,  
     stadium_name varchar(50) not null,  
     referee_id integer not null,  
     home_team_name varchar(50) not null,  
     away_team_name varchar(50) not null,  
-    round_id integer not null,  
+    round_id integer not null,
+    
     constraint game_pk primary key (id),  
     constraint game_fk1 foreign key (stadium_name) references stadium (name_)
     on delete cascade
