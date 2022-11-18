@@ -288,7 +288,7 @@ INSERT INTO person VALUES (86, 'Rafael Martins', 33);
 INSERT INTO player VALUES (86, 11, 'Casa Pia');
 INSERT INTO person VALUES (87, 'Saviour Godwin', 26);
 INSERT INTO player VALUES (87, 7, 'Casa Pia');
-INSERT INTO person VALUES (88, 'Diogo Pinto', 10);
+INSERT INTO person VALUES (88, 'Diogo Pinto', 20);
 INSERT INTO player VALUES (88, 23, 'Casa Pia');
 INSERT INTO person VALUES (89, 'Clayton Silva', 23);
 INSERT INTO player VALUES (89, 99, 'Casa Pia');
