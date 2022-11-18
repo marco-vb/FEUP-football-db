@@ -124,7 +124,7 @@ INSERT INTO player VALUES (18, 28, 'Porto');
 INSERT INTO person VALUES (388, 'André Franco', 24);
 INSERT INTO player VALUES (388, 20, 'Porto');
 INSERT INTO person VALUES (19, 'Sérgio Conceição', 48);
-INSERT INTO coach VALUES  (19, 'Porto')
+INSERT INTO coach VALUES  (19, 'Porto');
 
 --Benfica
 INSERT INTO person VALUES (20, 'Helton Leite', 32);
@@ -503,7 +503,7 @@ INSERT INTO person VALUES (353, 'Tiago Martins', 42);
 INSERT INTO person VALUES (354, 'Gustavo Correia', 30);
 INSERT INTO person VALUES (355, 'Rui Costa', 46);
 Insert INTO person VALUES (356, 'António Nobre', 33);
-INSERT INTO person VALUES (357, 'Miguel Nogueira', 28),;
+INSERT INTO person VALUES (357, 'Miguel Nogueira', 28);
 INSERT INTO person VALUES (358, 'Carlos Macedo', 36);
 INSERT INTO person VALUES (359, 'Hélder Carvalho', 29);
 INSERT INTO person VALUES (360, 'Ricardo Baixinho', 35);
