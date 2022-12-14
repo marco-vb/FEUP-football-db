@@ -1,9 +1,0 @@
-INSERT INTO game VALUES (1, '05/08/2022', 348, 'Estádio da Luz', 'Benfica', 'Arouca', 1); 
---INSERT INTO game VALUES (2, '06/08/2022', 354, 'Estádio dos Arcos', 'Rio Ave', 'Vizela', 1); 
---INSERT INTO game VALUES (3, '06/08/2022', 344, 'Estádio António Coimbra da Mota', 'Estoril Praia', 'Famalicão', 1); 
---INSERT INTO game VALUES (4, '06/08/2022', 352, 'Estádio do Dragão', 'Porto', 'Marítimo', 1); 
---INSERT INTO game VALUES (5, '07/08/2022', 366, 'Estádio de São Miguel', 'Santa Clara', 'Casa Pia', 1); 
-INSERT INTO game VALUES (6, '07/08/2022', 346, 'Estádio Municipal de Braga', 'Braga', 'Sporting', 1); 
-INSERT INTO game VALUES (7, '07/08/2022', 345, 'Estádio Municipal Eng.º Manuel Branco Teixeira', 'Chaves', 'Vitória', 1); 
---INSERT INTO game VALUES (8, '07/08/2022', 351, 'Estádio Municipal de Portimão', 'Portimonense', 'Boavista', 1); 
---INSERT INTO game VALUES (9, '08/08/2022', 349, 'Estádio Cidade de Barcelos', 'Gil Vicente', 'Paços de Ferreira', 1); 

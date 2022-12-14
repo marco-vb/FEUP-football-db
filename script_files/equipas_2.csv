@@ -1,0 +1,619 @@
+nomes,nomeJogador,idade,numero,nacionalidade
+Vitória SC,Bruno Varela,28 anos,14,Portugal
+Vitória SC,Rafa,19 anos,53,Portugal
+Vitória SC,Antal Bencze,20 anos,61,Hungria
+Vitória SC,Celton Biai,22 anos,63,Portugal
+Vitória SC,Matous Trmal,24 anos,29,Chéquia
+Vitória SC,Jonathan Mutombo,20 anos,45,França
+Vitória SC,Rui Correia,20 anos,82,Portugal
+Vitória SC,Miguel Maga,20 anos,2,Portugal
+Vitória SC,Bruno Gaspar,29 anos,76,Angola
+Vitória SC,Alberto Costa,19 anos,52,Portugal
+Vitória SC,Mikel Villanueva,29 anos,3,Venezuela
+Vitória SC,André Amaro,20 anos,13,Portugal
+Vitória SC,Ibrahima Bamba,20 anos,22,Itália
+Vitória SC,Maxwell Woledzi,21 anos,36,Gana
+Vitória SC,Jorge Fernandes,25 anos,44,Portugal
+Vitória SC,João Ricciulli,23 anos,50,Guiné-Bissau
+Vitória SC,Mamadou Tounkara,20 anos,83,França
+Vitória SC,Hélder Sá,20 anos,5,Portugal
+Vitória SC,Ryoya Ogawa,26 anos,25,Japão
+Vitória SC,Afonso Freitas,22 anos,72,Portugal
+Vitória SC,Abdul Mumin,24 anos,6,Gana
+Vitória SC,Gonçalo Nogueira,18 anos,64,Portugal
+Vitória SC,Gonçalo Pinto,19 anos,97,Portugal
+Vitória SC,Matheus Índio,23 anos,23,Brasil
+Vitória SC,Tiago Silva,29 anos,10,Portugal
+Vitória SC,Dani Silva,22 anos,80,Portugal
+Vitória SC,Tomás Händel,22 anos,8,Portugal
+Vitória SC,André André,33 anos,21,Portugal
+Vitória SC,Zé Carlos,21 anos,28,Portugal
+Vitória SC,Nicolas Janvier,24 anos,98,França
+Vitória SC,Alfa Semedo,25 anos,30,Guiné-Bissau
+Vitória SC,André Almeida,22 anos,70,Portugal
+Vitória SC,Rúben Lameiras,27 anos,7,Portugal
+Vitória SC,Jason Bahamboula,21 anos,47,França
+Vitória SC,Alisson Safira,27 anos,9,Brasil
+Vitória SC,Antoñín Cortés,22 anos,15,Espanha
+Vitória SC,Anderson Silva,25 anos,33,Brasil
+Vitória SC,Felipe Estrella,21 anos,42,Brasil
+Vitória SC,Jota Silva,23 anos,11,Portugal
+Vitória SC,Nélson da Luz,24 anos,20,Angola
+Vitória SC,Jota Pereira,20 anos,87,Portugal
+Vitória SC,Mikey Johnston,23 anos,90,Escócia
+Vitória SC,André Silva,25 anos,17,Brasil
+Vitória SC,Herculano Nabian,18 anos,79,Portugal
+Sporting,Antonio Adán,35 anos,1,Espanha
+Sporting,Franco Israel,22 anos,12,Uruguai
+Sporting,André Paulo,25 anos,22,Portugal
+Sporting,Diego Callai,18 anos,41,Brasil
+Sporting,Ricardo Esgaio,29 anos,47,Portugal
+Sporting,Diogo Travassos,18 anos,97,Portugal
+Sporting,Jeremiah St. Juste,26 anos,3,Países Baixos
+Sporting,Sebastián Coates,32 anos,4,Uruguai
+Sporting,Luís Neto,34 anos,13,Portugal
+Sporting,Gonçalo Inácio,21 anos,25,Portugal
+Sporting,José Marsà,20 anos,63,Espanha
+Sporting,Chico Lamba,19 anos,73,Portugal
+Sporting,Matheus Reis,27 anos,2,Brasil
+Sporting,Flávio Nazinho,19 anos,71,Portugal
+Sporting,Pedro Porro,23 anos,24,Espanha
+Sporting,Sotiris Alexandropoulos,21 anos,6,Grécia
+Sporting,Manuel Ugarte,21 anos,15,Uruguai
+Sporting,Dário Essugo,17 anos,84,Portugal
+Sporting,Renato Veiga,19 anos,95,Portugal
+Sporting,Mateus Fernandes,18 anos,82,Portugal
+Sporting,Hidemasa Morita,27 anos,5,Japão
+Sporting,Daniel Bragança,23 anos,23,Portugal
+Sporting,Matheus Nunes,24 anos,8,Portugal
+Sporting,Francisco Trincão,22 anos,17,Portugal
+Sporting,Fatawu Issahaku,18 anos,18,Gana
+Sporting,Luís Gomes,18 anos,83,Portugal
+Sporting,Paulinho,30 anos,20,Portugal
+Sporting,Youssef Chermiti,18 anos,79,Portugal
+Sporting,Rodrigo Ribeiro,17 anos,91,Portugal
+Sporting,Rochinha,27 anos,16,Portugal
+Sporting,Arthur Gomes,24 anos,33,Brasil
+Sporting,Jovane Cabral,24 anos,77,Cabo Verde
+Sporting,Marcus Edwards,24 anos,10,Inglaterra
+Sporting,Pedro Gonçalves,24 anos,28,Portugal
+Sporting,Nuno Santos,27 anos,11,Portugal
+SC Braga,Matheus Magalhães,30 anos,1,Brasil
+SC Braga,Tiago Sá,27 anos,12,Portugal
+SC Braga,Lukas Hornicek,20 anos,91,Chéquia
+SC Braga,Bernardo Fontes,20 anos,31,Brasil
+SC Braga,Víctor Gómez,22 anos,2,Espanha
+SC Braga,Fabiano Souza,22 anos,70,Brasil
+SC Braga,Dinis Pinto,22 anos,76,Portugal
+SC Braga,Vítor Tormena,26 anos,3,Brasil
+SC Braga,Sikou Niakaté,23 anos,4,França
+SC Braga,Paulo Oliveira,30 anos,15,Portugal
+SC Braga,Bruno Rodrigues,21 anos,24,Portugal
+SC Braga,Guilherme Soares,21 anos,42,Portugal
+SC Braga,Serdar Saatci,19 anos,5,Turquia
+SC Braga,Nuno Sequeira,32 anos,6,Portugal
+SC Braga,Cristián Borja,29 anos,26,Colômbia
+SC Braga,Francisco Moura,23 anos,74,Portugal
+SC Braga,Eduardo Teixeira,29 anos,-,Brasil
+SC Braga,Al Musrati,26 anos,8,Líbia
+SC Braga,Uros Racic,24 anos,19,Sérvia
+SC Braga,Gorby Baptiste,20 anos,29,França
+SC Braga,André Horta,26 anos,10,Portugal
+SC Braga,André Castro,34 anos,88,Portugal
+SC Braga,Eduardo Schürrle,21 anos,16,Portugal
+SC Braga,Lucas Mineiro,26 anos,25,Brasil
+SC Braga,Vitinha,22 anos,99,Portugal
+SC Braga,Dinis Rodrigues,17 anos,20,Portugal
+SC Braga,Diego Lainez,22 anos,18,México
+SC Braga,Iuri Medeiros,28 anos,45,Portugal
+SC Braga,Hernâni Infande,21 anos,71,Portugal
+SC Braga,Abel Ruiz,22 anos,9,Espanha
+SC Braga,Simon Banza,26 anos,23,França
+SC Braga,Rodrigo Gomes,19 anos,7,Portugal
+SC Braga,Roger Fernandes,17 anos,11,Guiné-Bissau
+SC Braga,Álvaro Djaló,23 anos,14,Espanha
+SC Braga,Ricardo Horta,28 anos,21,Portugal
+Santa Clara,Ricardo Fernandes,28 anos,1,Portugal
+Santa Clara,Gabriel Batista,24 anos,12,Brasil
+Santa Clara,Marco Pereira,35 anos,99,Portugal
+Santa Clara,Ricardo Silva,23 anos,41,Portugal
+Santa Clara,Tomás Domingos,23 anos,2,Portugal
+Santa Clara,Diogo Calila,24 anos,13,Portugal
+Santa Clara,Pierre Sagna,32 anos,95,Senegal
+Santa Clara,Kennedy Boateng,26 anos,4,Togo
+Santa Clara,Cristian Tassano,26 anos,17,Uruguai
+Santa Clara,Paulo Eduardo,20 anos,43,Brasil
+Santa Clara,Ítalo Assis,20 anos,44,Brasil
+Santa Clara,Xavi Quintillà,26 anos,3,Espanha
+Santa Clara,Paulo Henrique,26 anos,16,Portugal
+Santa Clara,MT,21 anos,32,Brasil
+Santa Clara,João Afonso,32 anos,5,Portugal
+Santa Clara,Anderson Carvalho,32 anos,8,Brasil
+Santa Clara,Adriano Firmino,23 anos,20,Brasil
+Santa Clara,Victor Bobsin,22 anos,80,Brasil
+Santa Clara,Ricardinho,24 anos,10,Portugal
+Santa Clara,João Costinha,30 anos,11,Portugal
+Santa Clara,Rodrigo Valente,21 anos,15,Portugal
+Santa Clara,Bruno Almeida,26 anos,19,Portugal
+Santa Clara,Bruno Jordão,24 anos,6,Portugal
+Santa Clara,Pedro Bicalho,21 anos,35,Brasil
+Santa Clara,Martim Maia,24 anos,6,Portugal
+Santa Clara,Rúben Oliveira,27 anos,14,Portugal
+Santa Clara,André Mesquita,25 anos,-,Portugal
+Santa Clara,Andrezinho,26 anos,21,Portugal
+Santa Clara,Gabriel Silva,20 anos,49,Brasil
+Santa Clara,Kyosuke Tagawa,23 anos,9,Japão
+Santa Clara,Matheus Babi,25 anos,39,Brasil
+Santa Clara,João Marcos,22 anos,89,Brasil
+Santa Clara,Allano,27 anos,7,Brasil
+Santa Clara,Filip Stevanovic,20 anos,22,Sérvia
+Santa Clara,Rildo,22 anos,37,Brasil
+Santa Clara,Rui Costa,26 anos,77,Portugal
+Rio Ave,Léo Vieira,32 anos,-,Brasil
+Rio Ave,Magrão,22 anos,1,Brasil
+Rio Ave,Jhonatan Luiz,31 anos,18,Brasil
+Rio Ave,Lucas Flores,20 anos,40,Brasil
+Rio Ave,Philemon Baffour,21 anos,-,Gana
+Rio Ave,João Ferreira,21 anos,13,Portugal
+Rio Ave,Costinha,22 anos,20,Portugal
+Rio Ave,Miguel Nóbrega,22 anos,3,Portugal
+Rio Ave,Patrick William,25 anos,4,Brasil
+Rio Ave,Josué Sá,30 anos,23,Portugal
+Rio Ave,Aderllan Santos,33 anos,33,Brasil
+Rio Ave,Renato Pantalon,25 anos,42,Croácia
+Rio Ave,Pedro Amaral,25 anos,24,Portugal
+Rio Ave,Andreas Samaris,33 anos,30,Grécia
+Rio Ave,Joca,26 anos,14,Portugal
+Rio Ave,Miguel Baeza,22 anos,15,Espanha
+Rio Ave,Guga Rodrigues,25 anos,6,Portugal
+Rio Ave,Vítor Gomes,34 anos,8,Portugal
+Rio Ave,Amine Oudrhiri,30 anos,10,França
+Rio Ave,João Graça,27 anos,21,Portugal
+Rio Ave,Bruno Ventura,21 anos,11,Portugal
+Rio Ave,Mohammed Sulemana,19 anos,-,Gana
+Rio Ave,Ukra,34 anos,17,Portugal
+Rio Ave,Hernâni Fortes,31 anos,27,Portugal
+Rio Ave,Marko Brkic,20 anos,-,Croácia
+Rio Ave,Leonardo Ruiz,26 anos,9,Colômbia
+Rio Ave,Yakubu Aziz,24 anos,19,Gana
+Rio Ave,Emmanuel Boateng,26 anos,22,Gana
+Rio Ave,André Pereira,27 anos,95,Portugal
+Rio Ave,Fábio Ronaldo,21 anos,77,Portugal
+Rio Ave,Paulo Vitor,23 anos,93,Brasil
+Rio Ave,Fabrice Olinga,26 anos,7,Camarões
+Rio Ave,Zé Manuel,32 anos,70,Portugal
+Portimonense,Berke Ozer,22 anos,1,Turquia
+Portimonense,Mateus Oliveira,20 anos,31,Brasil
+Portimonense,Kosuke Nakamura,27 anos,32,Japão
+Portimonense,João Victor,22 anos,88,Brasil
+Portimonense,Payam Niazmand,27 anos,12,Irão
+Portimonense,Samuel Portugal,28 anos,94,Brasil
+Portimonense,Zié Ouattara,22 anos,3,Costa do Marfim
+Portimonense,Fahd Moufi,26 anos,18,Marrocos
+Portimonense,Pastor,22 anos,28,Brasil
+Portimonense,Filipe Relvas,23 anos,22,Portugal
+Portimonense,Pedrão,25 anos,44,Brasil
+Portimonense,Vinícius Szeuczuk,25 anos,78,Brasil
+Portimonense,Moustapha Seck,26 anos,14,Senegal
+Portimonense,Gonçalo Costa,22 anos,19,Portugal
+Portimonense,Achraf Lazaar,30 anos,23,Marrocos
+Portimonense,Willyan Rocha,27 anos,4,Brasil
+Portimonense,Henrique Jocú,21 anos,6,Portugal
+Portimonense,Pedro Sá,29 anos,21,Portugal
+Portimonense,Mohamed Diaby,26 anos,24,França
+Portimonense,Carlinhos,28 anos,76,Brasil
+Portimonense,Ewerton,30 anos,8,Brasil
+Portimonense,Gustavo Klismahn,23 anos,27,Brasil
+Portimonense,Paulo Estrela,23 anos,38,Portugal
+Portimonense,Bruno Reis,23 anos,85,Portugal
+Portimonense,Anderson Oliveira,24 anos,11,Brasil
+Portimonense,Luquinha,22 anos,20,Brasil
+Portimonense,Kim Yong-hak,19 anos,30,República da Coreia
+Portimonense,João Veras,22 anos,-,Brasil
+Portimonense,Ricardo Matos,22 anos,17,Portugal
+Portimonense,Bryan Róchez,27 anos,35,Honduras
+Portimonense,Yago Cariello,23 anos,99,Brasil
+Portimonense,Rui Gomes,25 anos,70,Portugal
+Portimonense,Adewale Sapara,27 anos,77,Nigéria
+Portimonense,Welinton Júnior,29 anos,93,Brasil
+Portimonense,Shuhei Kawasaki,21 anos,13,Japão
+Portimonense,Wilinton Aponzá,22 anos,39,Colômbia
+Paços de Ferreira,Jordi Martins,29 anos,1,Brasil
+Paços de Ferreira,José Oliveira,20 anos,24,Portugal
+Paços de Ferreira,Igor Vekić,24 anos,98,Eslovénia
+Paços de Ferreira,Jeimes Menezes,21 anos,12,Brasil
+Paços de Ferreira,Jorge Silva,26 anos,21,Portugal
+Paços de Ferreira,Fernando Fonseca,25 anos,29,Portugal
+Paços de Ferreira,Nuno Lima,21 anos,3,Portugal
+Paços de Ferreira,Pedro Ganchas,22 anos,4,Portugal
+Paços de Ferreira,Erick Ferigra,23 anos,23,Equador
+Paços de Ferreira,Flávio Ramos,28 anos,32,Brasil
+Paços de Ferreira,Tiago Ilori,29 anos,34,Portugal
+Paços de Ferreira,Antunes,35 anos,5,Portugal
+Paços de Ferreira,Luís Bastos,21 anos,20,Portugal
+Paços de Ferreira,João Vigário,27 anos,27,Portugal
+Paços de Ferreira,Vasco Sousa,18 anos,33,Portugal
+Paços de Ferreira,Rui Pires,24 anos,26,Portugal
+Paços de Ferreira,Nico Gaitán,34 anos,10,Argentina
+Paços de Ferreira,Jordan Holsgrove,23 anos,6,Escócia
+Paços de Ferreira,Abbas Ibrahim,24 anos,8,Nigéria
+Paços de Ferreira,Bastien Toma,23 anos,14,Suíça
+Paços de Ferreira,Luiz Carlos,37 anos,22,Brasil
+Paços de Ferreira,Nigel Thomas,21 anos,7,Curaçau
+Paços de Ferreira,Kayky,19 anos,11,Brasil
+Paços de Ferreira,Juan Delgado,29 anos,15,Chile
+Paços de Ferreira,Matchoi Djaló,19 anos,16,Portugal
+Paços de Ferreira,Arthur Sales,20 anos,13,Brasil
+Paços de Ferreira,Adrián Butzke,23 anos,17,Espanha
+Paços de Ferreira,N’Dri Koffi,20 anos,19,Costa do Marfim
+Paços de Ferreira,Uilton Silva,30 anos,9,Brasil
+Paços de Ferreira,Mauro Couto,17 anos,41,Portugal
+Paços de Ferreira,Lucas Silva,24 anos,23,Brasil
+Paços de Ferreira,João Magno,25 anos,14,Brasil
+Marítimo,Miguel Silva,27 anos,1,Portugal
+Marítimo,Matous Trmal,24 anos,59,Chéquia
+Marítimo,Bruno Miguel,21 anos,80,Portugal
+Marítimo,Pedro Teixeira,21 anos,96,Portugal
+Marítimo,Vitor Eudes,24 anos,98,Brasil
+Marítimo,Fábio China,30 anos,45,Portugal
+Marítimo,Paulinho,31 anos,27,Portugal
+Marítimo,Matheus Costa,27 anos,4,Brasil
+Marítimo,Zainadine Júnior,34 anos,5,Moçambique
+Marítimo,Gonçalo Cardoso,22 anos,25,Portugal
+Marítimo,Léo Andrade,24 anos,66,Brasil
+Marítimo,Moises Mosquera,21 anos,3,Colômbia
+Marítimo,Cláudio Winck,28 anos,2,Brasil
+Marítimo,Vitor Costa,28 anos,94,Brasil
+Marítimo,Rafael Brito,20 anos,6,Portugal
+Marítimo,Diogo Mendes,24 anos,16,Portugal
+Marítimo,João Afonso,27 anos,21,Brasil
+Marítimo,Joel Soñora,26 anos,8,Estados Unidos
+Marítimo,Bruno Xadas,25 anos,23,Portugal
+Marítimo,Lucho Vega,23 anos,34,Argentina
+Marítimo,Stefano Beltrame,29 anos,10,Itália
+Marítimo,Miguel Sousa,24 anos,20,Portugal
+Marítimo,André Teles,25 anos,44,Portugal
+Marítimo,Bernardo Gomes,18 anos,13,Portugal
+Marítimo,Pedro Pelágio,22 anos,60,Portugal
+Marítimo,Carlos Eduardo,20 anos,99,Brasil
+Marítimo,Edgar Costa,35 anos,12,Portugal
+Marítimo,Antonio Zarzana,20 anos,17,Espanha
+Marítimo,Clésio Baúque,28 anos,24,Moçambique
+Marítimo,Francisco Gomes,18 anos,22,Portugal
+Marítimo,Pablo Moreno,20 anos,9,Espanha
+Marítimo,Jesús Ramírez,24 anos,11,Venezuela
+Marítimo,Percy Liza,22 anos,36,Peru
+Marítimo,Joel Tagueu,29 anos,95,Camarões
+Marítimo,André Vidigal,24 anos,7,Portugal
+Marítimo,Geny Catamo,21 anos,57,Moçambique
+Gil Vicente,Stanislav Kritciuk,32 anos,1,Rússia
+Gil Vicente,Brian Araújo,22 anos,12,Portugal
+Gil Vicente,Daniel Silva,18 anos,24,Portugal
+Gil Vicente,Andrew Silva,21 anos,42,Brasil
+Gil Vicente,Emma Hackman,27 anos,5,Togo
+Gil Vicente,Carraça,29 anos,15,Portugal
+Gil Vicente,Danilo Veiga,20 anos,78,Portugal
+Gil Vicente,Lucas Cunha,25 anos,3,Brasil
+Gil Vicente,Né Lopes,22 anos,4,Portugal
+Gil Vicente,Rúben Fernandes,36 anos,26,Portugal
+Gil Vicente,Tomás Araújo,20 anos,72,Portugal
+Gil Vicente,Lucas Barros,23 anos,6,Brasil
+Gil Vicente,Adrián Marín,25 anos,19,Espanha
+Gil Vicente,Henrique Gomes,27 anos,55,Portugal
+Gil Vicente,João Barros,21 anos,53,Portugal
+Gil Vicente,André Simões,19 anos,16,Portugal
+Gil Vicente,Vitor Carvalho,25 anos,21,Brasil
+Gil Vicente,Giorgi Aburjania,27 anos,8,Geórgia
+Gil Vicente,Kanya Fujimoto,23 anos,10,Japão
+Gil Vicente,Mizuki Arai,25 anos,18,Japão
+Gil Vicente,Matheus Bueno,24 anos,57,Brasil
+Gil Vicente,Pedro Tiba,34 anos,25,Portugal
+Gil Vicente,Juan Manuel Boselli,23 anos,20,Uruguai
+Gil Vicente,Murilo Souza,28 anos,77,Brasil
+Gil Vicente,Fran Navarro,24 anos,9,Espanha
+Gil Vicente,Ali Alipour,27 anos,30,Irão
+Gil Vicente,Élder Santana,29 anos,93,Brasil
+Gil Vicente,Eric Ayiah,22 anos,-,Gana
+Gil Vicente,Bilel Aouacheria,28 anos,7,França
+Gil Vicente,Kevin Medina,21 anos,17,Espanha
+Gil Vicente,Boubacar Hanne,23 anos,11,Portugal
+GD Chaves,Paulo Vítor,34 anos,1,Brasil
+GD Chaves,Rodrigo Moura,26 anos,31,Brasil
+GD Chaves,Žiga Frelih,24 anos,25,Eslovénia
+GD Chaves,Gonçalo Pinto,22 anos,30,Portugal
+GD Chaves,Valentino Rodrigues,19 anos,76,Portugal
+GD Chaves,João Correia,26 anos,77,Cabo Verde
+GD Chaves,Nélson Monte,27 anos,3,Portugal
+GD Chaves,Steven Vitória,35 anos,19,Canadá
+GD Chaves,Carlos Ponck,27 anos,26,Cabo Verde
+GD Chaves,João Queirós,24 anos,44,Portugal
+GD Chaves,Guilherme,22 anos,47,Brasil
+GD Chaves,Bruno Langa,25 anos,5,Moçambique
+GD Chaves,Sandro Cruz,21 anos,12,Portugal
+GD Chaves,Habib Sylla,23 anos,2,Costa do Marfim
+GD Chaves,Rúben Pereira,24 anos,3,Portugal
+GD Chaves,Eduardo Borges,20 anos,24,Portugal
+GD Chaves,Sidy Sarr,26 anos,14,Senegal
+GD Chaves,Nwankwo Obiora,31 anos,40,Nigéria
+GD Chaves,João Mendes,28 anos,8,Portugal
+GD Chaves,Benny Sousa,22 anos,73,Portugal
+GD Chaves,João Teixeira,28 anos,10,Portugal
+GD Chaves,Ricardo Guima,27 anos,21,Portugal
+GD Chaves,Hélder Morim,21 anos,70,Portugal
+GD Chaves,Euller Silva,27 anos,16,Brasil
+GD Chaves,Kevin Pina,25 anos,6,Cabo Verde
+GD Chaves,Luther Singh,25 anos,7,África do Sul
+GD Chaves,Juninho Vieira,26 anos,20,Brasil
+GD Chaves,Patrick Fernandes,28 anos,9,Cabo Verde
+GD Chaves,Héctor Hernández,27 anos,23,Espanha
+GD Chaves,Jô Batista,27 anos,95,Brasil
+GD Chaves,Issah Abass,24 anos,17,Gana
+GD Chaves,Jonny Arriba,21 anos,28,Espanha
+GD Chaves,Manolis Pavlis,20 anos,-,Austrália
+GD Chaves,Nicolas Reis,23 anos,-,Brasil
+GD Chaves,João Batxi,24 anos,11,Angola
+FC Vizela,Luiz Felipe,25 anos,13,Brasil
+FC Vizela,Fabijan Buntic,25 anos,97,Croácia
+FC Vizela,Manuel Baldé,20 anos,31,Guiné-Bissau
+FC Vizela,Pedro Silva,25 anos,1,Portugal
+FC Vizela,Carlos Isaac,24 anos,7,Espanha
+FC Vizela,Igor Julião,28 anos,14,Brasil
+FC Vizela,Tomás Silva,23 anos,82,Portugal
+FC Vizela,Bruno Wilson,25 anos,3,Portugal
+FC Vizela,Ivanildo Fernandes,26 anos,4,Portugal
+FC Vizela,Anderson Jesus,27 anos,5,Brasil
+FC Vizela,Mohamed Aidara,26 anos,25,Costa do Marfim
+FC Vizela,Matheus Pereira,21 anos,16,Brasil
+FC Vizela,Kiki Afonso,27 anos,24,Portugal
+FC Vizela,Claudemir,34 anos,6,Brasil
+FC Vizela,Alex Méndez,22 anos,19,Estados Unidos
+FC Vizela,Samu Silva,26 anos,20,Portugal
+FC Vizela,Osama Rashid,30 anos,23,Iraque
+FC Vizela,Alejandro Alvarado,19 anos,70,Estados Unidos
+FC Vizela,Raphael Guzzo,27 anos,8,Portugal
+FC Vizela,Diego Rosa,20 anos,17,Brasil
+FC Vizela,Kiko Bondoso,27 anos,10,Portugal
+FC Vizela,Milutin Osmajic,23 anos,9,Montenegro
+FC Vizela,Alexander Schmidt,24 anos,11,Áustria
+FC Vizela,Friday Etim,20 anos,90,Nigéria
+FC Vizela,Monsuru Opeyemi,19 anos,15,Nigéria
+FC Vizela,Kévin Zohi,25 anos,22,Mali
+FC Vizela,Andrés Sarmiento,24 anos,29,Colômbia
+FC Vizela,Nuno Moreira,23 anos,79,Portugal
+FC Vizela,Francis Cann,24 anos,99,Gana
+FC Porto,Cláudio Ramos,31 anos,14,Portugal
+FC Porto,Francisco Meixedo,21 anos,71,Portugal
+FC Porto,Samuel Portugal,28 anos,94,Brasil
+FC Porto,Diogo Costa,23 anos,99,Portugal
+FC Porto,Agustín Marchesín,34 anos,1,Argentina
+FC Porto,Rodrigo Conceição,22 anos,17,Portugal
+FC Porto,Wilson Manafá,28 anos,18,Portugal
+FC Porto,João Mário,22 anos,23,Portugal
+FC Porto,Fábio Cardoso,28 anos,2,Portugal
+FC Porto,Pepe,39 anos,3,Portugal
+FC Porto,David Carmo,23 anos,4,Portugal
+FC Porto,Iván Marcano,35 anos,5,Espanha
+FC Porto,João Marcelo,22 anos,43,Brasil
+FC Porto,Zaidu Sanusi,25 anos,12,Nigéria
+FC Porto,Wendell,29 anos,22,Brasil
+FC Porto,Marko Grujic,26 anos,16,Sérvia
+FC Porto,André Franco,24 anos,20,Portugal
+FC Porto,Otávio,27 anos,25,Portugal
+FC Porto,Vasco Sousa,19 anos,67,Portugal
+FC Porto,Matheus Uribe,31 anos,8,Colômbia
+FC Porto,Bruno Costa,25 anos,28,Portugal
+FC Porto,Stephen Eustáquio,25 anos,46,Canadá
+FC Porto,Bernardo Folha,20 anos,87,Portugal
+FC Porto,Gonçalo Borges,21 anos,70,Portugal
+FC Porto,Mehdi Taremi,30 anos,9,Irão
+FC Porto,Danny Namaso,22 anos,19,Inglaterra
+FC Porto,Toni Martínez,25 anos,29,Espanha
+FC Porto,Evanilson,23 anos,30,Brasil
+FC Porto,Wendel Silva,22 anos,50,Brasil
+FC Porto,Gabriel Veron,20 anos,7,Brasil
+FC Porto,Pepê,25 anos,11,Brasil
+FC Porto,Wenderson Galeno,25 anos,13,Brasil
+FC Porto,Fernando Andrade,29 anos,38,Brasil
+FC Porto,Abraham Marcus,22 anos,98,Nigéria
+FC Famalicão,Ivan Zlobin,25 anos,1,Rússia
+FC Famalicão,Dalberson Ferreira,25 anos,13,Brasil
+FC Famalicão,Luiz Júnior,21 anos,31,Brasil
+FC Famalicão,Kauan Firmino,20 anos,47,Brasil
+FC Famalicão,De La Fuente,25 anos,22,Argentina
+FC Famalicão,Martín Aguirregabiria,26 anos,32,Espanha
+FC Famalicão,Diogo Queirós,23 anos,2,Portugal
+FC Famalicão,Enea Mihaj,24 anos,4,Albânia
+FC Famalicão,Alexandre Penetra,21 anos,6,Portugal
+FC Famalicão,Riccieli,24 anos,15,Brasil
+FC Famalicão,Rúben Lima,33 anos,5,Portugal
+FC Famalicão,Francisco Moura,23 anos,74,Portugal
+FC Famalicão,Dylan Batubinsika,26 anos,21,França
+FC Famalicão,Cláudio Silva,22 anos,66,Portugal
+FC Famalicão,Owen Beck,20 anos,3,País de Gales
+FC Famalicão,André Simões,32 anos,8,Portugal
+FC Famalicão,Gustavo Assunção,22 anos,12,Brasil
+FC Famalicão,Pelé,31 anos,25,Guiné-Bissau
+FC Famalicão,Iván Jaime,22 anos,10,Espanha
+FC Famalicão,Pedro Brazão,19 anos,11,Portugal
+FC Famalicão,Gustavo Sá,18 anos,20,Portugal
+FC Famalicão,Zaydou Youssouf,23 anos,28,França
+FC Famalicão,Santi Colombatto,25 anos,97,Argentina
+FC Famalicão,Lawrence Ofori,24 anos,-,Gana
+FC Famalicão,Benny,21 anos,23,Portugal
+FC Famalicão,Samuel Lobato,21 anos,18,Portugal
+FC Famalicão,Pablo Felipe,18 anos,77,Brasil
+FC Famalicão,Ivo Rodrigues,27 anos,7,Portugal
+FC Famalicão,Álex Millán,23 anos,9,Espanha
+FC Famalicão,Rui Fonte,32 anos,17,Portugal
+FC Famalicão,Jhonder Cádiz,27 anos,29,Venezuela
+FC Famalicão,Théo Fonseca,22 anos,95,Portugal
+FC Famalicão,Junior Kadile,19 anos,14,França
+FC Famalicão,Puma Rodríguez,24 anos,19,Panamá
+FC Famalicão,Heriberto Tavares,25 anos,91,Portugal
+FC Arouca,Emilijus Zubas,32 anos,1,Lituânia
+FC Arouca,de Arruabarrena,25 anos,12,Uruguai
+FC Arouca,João Valido,22 anos,92,Portugal
+FC Arouca,Bogdan Milovanov,24 anos,21,Ucrânia
+FC Arouca,Tiago Esgaio,27 anos,28,Portugal
+FC Arouca,Jerome Opoku,24 anos,3,Inglaterra
+FC Arouca,Sema Velázquez,32 anos,4,Venezuela
+FC Arouca,João Basso,25 anos,13,Brasil
+FC Arouca,Nino Galovic,30 anos,44,Croácia
+FC Arouca,Rafael Fernandes,20 anos,64,Portugal
+FC Arouca,Mateus Quaresma,26 anos,6,Brasil
+FC Arouca,Mustafa Kizza,23 anos,32,Uganda
+FC Arouca,Uri Busquets,23 anos,14,Espanha
+FC Arouca,Pedro Moreira,33 anos,20,Portugal
+FC Arouca,Ismaila Soro,24 anos,23,Costa do Marfim
+FC Arouca,Alan Ruiz,29 anos,10,Argentina
+FC Arouca,Morlaye Sylla,24 anos,2,Guiné (Conacri)
+FC Arouca,David Simão,32 anos,5,Portugal
+FC Arouca,Yaw Moses,23 anos,17,Gana
+FC Arouca,Vitinho Moura,22 anos,43,Brasil
+FC Arouca,André Bukia,27 anos,7,Rep.Dem. do Congo
+FC Arouca,Arsénio Nunes,33 anos,8,Portugal
+FC Arouca,Bruno Marques,23 anos,9,Brasil
+FC Arouca,Rafa Mujica,24 anos,19,Espanha
+FC Arouca,Antony Alves,21 anos,11,Brasil
+FC Arouca,Oday Dabbagh,24 anos,15,Palestina
+Estoril Praia,Pedro Silva,25 anos,13,Portugal
+Estoril Praia,Daniel Figueira,24 anos,99,Portugal
+Estoril Praia,João Oliveira,20 anos,47,Portugal
+Estoril Praia,Thiago Rodrigues,26 anos,12,Brasil
+Estoril Praia,Lucas Áfrico,27 anos,4,Brasil
+Estoril Praia,Racine Coly,26 anos,14,Senegal
+Estoril Praia,Felix,20 anos,94,Brasil
+Estoril Praia,Martim Filipe,18 anos,64,Portugal
+Estoril Praia,Tiago Santos,20 anos,62,Portugal
+Estoril Praia,Gonçalo Esteves,18 anos,87,Portugal
+Estoril Praia,Bernardo Vital,21 anos,3,Portugal
+Estoril Praia,Pedro Álvaro,22 anos,23,Portugal
+Estoril Praia,Edson Mexer,34 anos,34,Moçambique
+Estoril Praia,Shaquil Delos,23 anos,22,França
+Estoril Praia,Joãozinho,33 anos,31,Portugal
+Estoril Praia,Volnei Feltes,22 anos,5,Brasil
+Estoril Praia,João Marques,20 anos,33,Portugal
+Estoril Praia,Mabrouk Rouai,22 anos,91,França
+Estoril Praia,Mor Ndiaye,22 anos,25,Senegal
+Estoril Praia,Loreintz Rosier,24 anos,32,França
+Estoril Praia,Serginho,21 anos,8,Portugal
+Estoril Praia,Francisco Geraldes,27 anos,10,Portugal
+Estoril Praia,João Carvalho,25 anos,20,Portugal
+Estoril Praia,James Léa-Siliki,26 anos,95,Camarões
+Estoril Praia,Duarte Carvalho,20 anos,20,Portugal
+Estoril Praia,Titouan Thomas,20 anos,22,França
+Estoril Praia,Tiago Gouveia,21 anos,21,Portugal
+Estoril Praia,Iuri Tavares,21 anos,38,Cabo Verde
+Estoril Praia,Alejandro Marqués,22 anos,9,Espanha
+Estoril Praia,João Carlos,27 anos,50,Brasil
+Estoril Praia,Erison Danilo,23 anos,79,Brasil
+Estoril Praia,Gilson Benchimol,20 anos,90,Cabo Verde
+Estoril Praia,Rodrigo Martins,24 anos,7,Portugal
+Estoril Praia,Dele Yusuf,21 anos,11,Nigéria
+Estoril Praia,Tiago Araújo,21 anos,78,Portugal
+Estoril Praia,Arthur Gomes,24 anos,11,Brasil
+Estoril Praia,Elias Achouri,23 anos,17,Tunísia
+Casa Pia AC,João Bravim,24 anos,1,Brasil
+Casa Pia AC,Ricardo Batista,36 anos,33,Portugal
+Casa Pia AC,Lucas Paes,24 anos,68,Brasil
+Casa Pia AC,Duplexe Tchamba,24 anos,12,Camarões
+Casa Pia AC,Eduardo Fereira,22 anos,2,Venezuela
+Casa Pia AC,Rogério Fernandes,20 anos,21,Portugal
+Casa Pia AC,João Nunes,27 anos,3,Portugal
+Casa Pia AC,Léo Bolgado,24 anos,4,Brasil
+Casa Pia AC,Vasco Fernandes,36 anos,13,Portugal
+Casa Pia AC,Fernando Varela,35 anos,15,Cabo Verde
+Casa Pia AC,Nermin Zolotic,29 anos,19,Bósnia e Herzegovina
+Casa Pia AC,Isaac Monteiro,18 anos,44,Portugal
+Casa Pia AC,Leonardo Lelo,22 anos,5,Portugal
+Casa Pia AC,Derick Poloni,29 anos,6,Brasil
+Casa Pia AC,Lucas Soares,24 anos,42,Brasil
+Casa Pia AC,Vitó,25 anos,18,Portugal
+Casa Pia AC,Afonso Taira,30 anos,27,Portugal
+Casa Pia AC,Ângelo Neto,31 anos,8,Brasil
+Casa Pia AC,Cuca,31 anos,16,Cabo Verde
+Casa Pia AC,Romário Baró,22 anos,17,Portugal
+Casa Pia AC,Nuno Borges,34 anos,55,Cabo Verde
+Casa Pia AC,Yan Eteki,25 anos,88,Camarões
+Casa Pia AC,Diogo Pinto,23 anos,10,Portugal
+Casa Pia AC,Takahiro Kunimoto,25 anos,14,Japão
+Casa Pia AC,Anderson Cordeiro,24 anos,70,Brasil
+Casa Pia AC,Carnejy Antoine,31 anos,9,Haiti
+Casa Pia AC,Rafael Martins,33 anos,11,Brasil
+Casa Pia AC,Clayton Silva,23 anos,99,Brasil
+Casa Pia AC,Saviour Godwin,26 anos,7,Nigéria
+Casa Pia AC,Léo Natel,25 anos,23,Brasil
+Boavista,Rafael Bracali,41 anos,1,Brasil
+Boavista,César,30 anos,12,Brasil
+Boavista,João Gonçalves,22 anos,99,Portugal
+Boavista,Tomé Sousa,15 anos,78,Portugal
+Boavista,Reggie Cannon,24 anos,2,Estados Unidos
+Boavista,Robson Reis,22 anos,4,Brasil
+Boavista,Vincent Sasso,31 anos,23,França
+Boavista,Rodrigo Abascal,28 anos,26,Uruguai
+Boavista,Pedro Gomes,19 anos,62,Portugal
+Boavista,Bruno Onyemaechi,23 anos,70,Nigéria
+Boavista,Filipe Ferreira,32 anos,20,Portugal
+Boavista,Júlio Dabó,18 anos,55,Portugal
+Boavista,Pedro Malheiro,21 anos,79,Portugal
+Boavista,Ricardo Mangas,24 anos,19,Portugal
+Boavista,Yanis Hamache,23 anos,25,Argélia
+Boavista,Miguel Reisinho,23 anos,10,Portugal
+Boavista,Sebastián Pérez,29 anos,24,Colômbia
+Boavista,Ibrahima Camará,23 anos,6,Guiné (Conacri)
+Boavista,Ilija Vukotic,23 anos,18,Montenegro
+Boavista,Masaki Watai,23 anos,13,Japão
+Boavista,Joel Silva,19 anos,16,Portugal
+Boavista,Gaius Makouta,25 anos,42,Congo
+Boavista,Berna Conceição,19 anos,80,Portugal
+Boavista,Bruno Lourenço,24 anos,8,Portugal
+Boavista,Diego Llorente,21 anos,71,Espanha
+Boavista,Luís Santos,22 anos,77,Portugal
+Boavista,Adalberto Peñaranda,25 anos,97,Venezuela
+Boavista,Róbert Bozeník,23 anos,9,Eslováquia
+Boavista,Yusupha Njie,28 anos,11,Gâmbia
+Boavista,Martim Tavares,19 anos,59,Portugal
+Boavista,Tiago Machado,18 anos,90,Portugal
+Boavista,Kenji Gorré,28 anos,7,Curaçau
+Boavista,Salvador Agra,31 anos,21,Portugal
+Boavista,Cristiano Fitzgerald,19 anos,30,República da Irlanda
+Boavista,Jeriel De Santis,20 anos,27,Venezuela
+Boavista,Tiago Morais,19 anos,73,Portugal
+Benfica,Samuel Soares,20 anos,24,Portugal
+Benfica,Helton Leite,32 anos,77,Brasil
+Benfica,Odysseas Vlachodimos,28 anos,99,Grécia
+Benfica,Léo Kokubo,21 anos,45,Japão
+Benfica,André Gomes,18 anos,75,Portugal
+Benfica,Gilberto,29 anos,2,Brasil
+Benfica,Alexander Bah,24 anos,6,Dinamarca
+Benfica,André Almeida,32 anos,34,Portugal
+Benfica,Lucas Veríssimo,27 anos,4,Brasil
+Benfica,John Brooks,29 anos,25,Estados Unidos
+Benfica,Nicolás Otamendi,34 anos,30,Argentina
+Benfica,João Victor,24 anos,38,Brasil
+Benfica,António Silva,19 anos,66,Portugal
+Benfica,Morato,21 anos,91,Brasil
+Benfica,Álex Grimaldo,27 anos,3,Espanha
+Benfica,Mihailo Ristic,27 anos,23,Sérvia
+Benfica,Gil Dias,26 anos,31,Portugal
+Benfica,Jan Vertonghen,35 anos,5,Bélgica
+Benfica,Fredrik Aursnes,26 anos,8,Noruega
+Benfica,Florentino Luís,23 anos,61,Portugal
+Benfica,João Mário,29 anos,20,Portugal
+Benfica,Chiquinho,27 anos,22,Portugal
+Benfica,Enzo Fernández,21 anos,13,Argentina
+Benfica,Paulo Bernardo,20 anos,55,Portugal
+Benfica,Martim Neto,19 anos,76,Portugal
+Benfica,João Neves,18 anos,87,Portugal
+Benfica,Hugo Félix,18 anos,94,Portugal
+Benfica,Julian Weigl,27 anos,28,Alemanha
+Benfica,Julian Draxler,29 anos,93,Alemanha
+Benfica,David Neres,25 anos,7,Brasil
+Benfica,Diogo Gonçalves,25 anos,17,Portugal
+Benfica,Rodrigo Pinho,31 anos,18,Brasil
+Benfica,Petar Musa,24 anos,33,Croácia
+Benfica,Henrique Araújo,20 anos,39,Portugal
+Benfica,Gonçalo Ramos,21 anos,88,Portugal
+Benfica,Diego Moreira,18 anos,96,Portugal
+Benfica,Rafa Silva,29 anos,27,Portugal
+Benfica,Roman Yaremchuk,27 anos,9,Ucrânia
