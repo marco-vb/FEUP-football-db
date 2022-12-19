@@ -1,0 +1,1 @@
+drop trigger if exists yellow_card_limit_trigger;
