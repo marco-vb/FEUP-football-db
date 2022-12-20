@@ -1,23 +1,52 @@
-select e.game_id as GAME, e.player_id as PLAYER, count(*) as YELLOW_CARDS
+pragma foreign_keys = on;
+.headers off
+.mode column
+
+select "";
+select "Red Card Trigger Verification";
+select "";
+
+.headers on
+
+select e.game_id as GAME, e.player_id as PLAYER_ID, count(*) as YELLOW_CARDS
 from event_ e, yellow_card c where e.id = c.id  and e.game_id = 1
 group by 1, 2
 order by 1 desc, 2;
 
-select e.game_id as GAME, e.player_id as PLAYER, count(*) as RED_CARDS
+.headers off
+select "";
+
+.headers on
+
+select e.game_id as GAME, e.player_id as PLAYER_ID, count(*) as RED_CARDS
 from event_ e, red_card c
 where e.id = c.id and e.game_id = 1
 group by 1, 2
 order by 1 desc, 2;
 
+.headers off
+
+select "";
+select "We are now going to add a yellow card to player_id 370 in game 1";
+select "The red card trigger should fire and add a red card to player_id 370 in game 1";
+select "";
+
 insert into event_ values (1001, 370, 1);
 insert into yellow_card values (1001);
 
-select e.game_id as GAME, e.player_id as PLAYER, count(*) as YELLOW_CARDS
+.headers on
+
+select e.game_id as GAME, e.player_id as PLAYER_ID, count(*) as YELLOW_CARDS
 from event_ e, yellow_card c where e.id = c.id  and e.game_id = 1
 group by 1, 2
 order by 1 desc, 2;
 
-select e.game_id as GAME, e.player_id as PLAYER, count(*) as RED_CARDS
+.headers off
+select "";
+
+.headers on
+
+select e.game_id as GAME, e.player_id as PLAYER_ID, count(*) as RED_CARDS
 from event_ e, red_card c
 where e.id = c.id and e.game_id = 1
 group by 1, 2

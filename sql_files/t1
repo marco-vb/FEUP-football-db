@@ -1,4 +1,2 @@
-.read criar.sql
-.read povoar.sql
 .read gatilho1_adiciona.sql
 .read gatilho1_verifica.sql

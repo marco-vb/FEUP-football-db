@@ -1,3 +1,5 @@
+pragma foreign_keys = on;
+
 create trigger red_card_trigger
 after insert on yellow_card
 when  (

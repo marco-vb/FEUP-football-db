@@ -1,1 +1,3 @@
-drop trigger if exists yellow_card_limit_trigger;
+pragma foreign_keys = on;
+
+drop trigger if exists unique_jersey_number;

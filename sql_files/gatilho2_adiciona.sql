@@ -1,16 +1,15 @@
-create trigger yellow_card_limit_trigger
-after insert on yellow_card
+pragma foreign_keys = on;
+
+create trigger unique_jersey_number
+after insert on player
 when  (
         select count(*)
         from (
-                select e.id, e.player_id, e.game_id, t.player_id, t.game_id
-                from event_ e, yellow_card c, (
-                    select player_id, game_id from event_ e, yellow_card c
-                    where e.id = new.id and e.id = c.id
-                ) as t
-                where e.id = c.id and e.player_id = t.player_id and e.game_id = t.game_id
+            select *
+            from player
+            where player.team_name = new.team_name and player.nr = new.nr
         )
-    ) > 2
+    ) > 1
 begin
-    select raise(rollback , 'Player has already received 2 yellow cards in this game');
+    select raise(rollback , 'Two players on the same team cannot have the same jersey number');
 end;
