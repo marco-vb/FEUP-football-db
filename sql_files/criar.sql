@@ -99,7 +99,7 @@ create table referee (
 
 create table game (  
     id integer not null,  
-    date_ varchar(20) not null,  
+    date_ varchar(20) not null,
     stadium_name varchar(50) not null,  
     referee_id integer not null,  
     home_team_name varchar(50) not null,  
