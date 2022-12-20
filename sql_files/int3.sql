@@ -21,6 +21,6 @@ select game.date_ as Date, stadium.name_ as Stadium, home_team.name_ as Home_Tea
 from game
 join team home_team on home_team.name_ = game.home_team_name
 join team away_team on away_team.name_ = game.away_team_name
-join stadium on stadium.name_ = game.stadium_name;
---where (Home_Team_Score = 0 and Away_Team_Score != 0)
---or (Home_Team_Score != 0 and Away_Team_Score = 0);
+join stadium on stadium.name_ = game.stadium_name
+where (Home_Team_Score = 0 and Away_Team_Score != 0)
+or (Home_Team_Score != 0 and Away_Team_Score = 0);
