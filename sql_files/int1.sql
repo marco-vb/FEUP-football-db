@@ -1,10 +1,13 @@
 .mode column
-.headers on
+.headers off
 .nullvalue NULL
 
--- list all players from 'Porto'
+select "Players from 'Porto'";
+select "";
 
-select nr as "NUMBER", name_ as "NAME", age as AGE
+.headers on
+
+select name_ as Name, nr as Number, age as Age
 from player, person 
 where player.id = person.id and player.team_name = 'Porto'
-order by 2;
+order by 1;

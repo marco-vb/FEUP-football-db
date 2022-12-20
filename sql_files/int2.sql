@@ -1,14 +1,17 @@
-.mode columns
-.headers on
+.mode column
+.headers off
 .nullvalue NULL
 
--- list all players from teams that have played in a game in 'Estádio do Dragão' stadium
+select "Teams that have played a game in 'Estádio do Dragão'";
+select "";
 
-select person.name_, p.team_name
+.headers on
+
+select distinct team_name as Team
 from player p, person 
 where team_name in (
     select team_name 
     from game 
     where stadium_name = 'Estádio do Dragão'
 ) and p.id = person.id
-order by 2, 1;
+order by 1;
