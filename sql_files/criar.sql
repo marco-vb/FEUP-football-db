@@ -125,10 +125,11 @@ create table game (
 ); 
 
 create table event_ (  
-    id integer primary key not null,
+    id integer not null,
     player_id integer not null,  
     game_id integer not null,
-    --constraint event__pk primary key (id),
+    minute integer not null,
+    constraint event__pk primary key (id),
     constraint event__fk1 foreign key (player_id) references player (id)
     on delete cascade
     on update restrict,  
