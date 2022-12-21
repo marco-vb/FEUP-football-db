@@ -2,16 +2,20 @@
 .headers off
 .nullvalue NULL
 
-select "Teams that have played a game in 'Estádio do Dragão'";
+select "Teams that have played a game in 'Estádio do Dragão' until round 6";
 select "";
 
 .headers on
 
-select distinct team_name as Team
-from player p, person 
-where team_name in (
-    select team_name 
-    from game 
+select distinct name_ as Team
+from team
+where name_ in (
+    select home_team_name
+    from game
     where stadium_name = 'Estádio do Dragão'
-) and p.id = person.id
+) or name_ in (
+    select away_team_name
+    from game
+    where stadium_name = 'Estádio do Dragão'
+)
 order by 1;
