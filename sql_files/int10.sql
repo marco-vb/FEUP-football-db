@@ -39,5 +39,6 @@ select team.name_ as Name, round((select count(*) from
     from game
     join team home_team on home_team.name_ = game.home_team_name
     join team away_team on away_team.name_ = game.away_team_name
-    join stadium on stadium.name_ = game.stadium_name) where (Home_Team_Score > Away_Team_Score and Home_Team = team.name_) or (Away_Team_Score > Home_Team_Score and Away_Team = team.name_)), 2) as Percentage
-from team;
+    join stadium on stadium.name_ = game.stadium_name) where (Home_Team_Score > Away_Team_Score and Home_Team = team.name_) or (Away_Team_Score > Home_Team_Score and Away_Team = team.name_)), 2) as "Away Win Rate (%)"
+from team
+order by "Away Win Rate (%)" desc;
