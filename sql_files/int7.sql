@@ -44,9 +44,9 @@ join stadium on stadium.name_ = game.stadium_name) where (Home_Team_Score = Away
 from team
 group by team.name_
 order by Points desc), person p, player
-JOIN player pl ON p.id = pl.id
-JOIN event_ e ON e.player_id = p.id
-JOIN game g ON e.game_id = g.id
-JOIN goal ON e.id = goal.id
+join player pl on p.id = pl.id
+join event_ e on e.player_id = p.id
+join game g on e.game_id = g.id
+join goal on e.id = goal.id
 where p.id = player.id
-GROUP BY p.name_
+group by p.name_

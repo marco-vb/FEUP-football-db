@@ -7,7 +7,7 @@ select "";
 
 .headers on
 
-select row_number() over (order by Points desc, Goals_scored desc, Goals_conceded) as Position, Name, Points, Goals_scored, Goals_conceded from
+select row_number() over (order by Points desc, Goals_scored desc, Goals_conceded) as Position, Name, Points, Goals_scored as "Goals Scored", Goals_conceded as "Goals Conceded" from
 (select team.name_ as Name, ((select count(*) from
     (select game.date_ as Date, stadium.name_ as Stadium, home_team.name_ as Home_Team, away_team.name_ as Away_Team,
        (select count(*) from event_

@@ -52,7 +52,7 @@ from team
 group by team.name_
 order by Points desc)
 order by Points desc, Goals_scored desc, Goals_conceded)
-select Name, Points, Goals_scored, Goals_conceded from Classification where Position <= 3;
+select Name, Points, Goals_scored as "Goals Scored", Goals_conceded as "Goals Conceded" from Classification where Position <= 3;
 
 .headers off
 
@@ -60,7 +60,7 @@ select "";
 select "Teams in risk of relegation";
 select "";
 
-
+.headers on
 
 with Classification as (
         select row_number() over (order by Points desc, Goals_scored desc, Goals_conceded) as Position, Name, Points, Goals_scored, Goals_conceded from
@@ -107,4 +107,4 @@ from team
 group by team.name_
 order by Points desc)
 order by Points desc, Goals_scored desc, Goals_conceded)
-select Name, Points, Goals_scored, Goals_conceded from Classification where Position >= 17;
+select Name, Points, Goals_scored as "Goals Scored", Goals_conceded as "Goals Conceded" from Classification where Position >= 17;
