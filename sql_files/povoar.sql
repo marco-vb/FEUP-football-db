@@ -1344,30 +1344,44 @@ INSERT INTO game VALUES (15, '14/08/2022', 'Estádio D. Afonso Henriques', 351, 
 INSERT INTO game VALUES (16, '14/08/2022',  'Estádio dos Barreiros', 360,'Marítimo', 'Chaves', 2);
 INSERT INTO game VALUES (17, '15/08/2022',  'Estádio Municipal de Arouca', 344, 'Arouca', 'Gil Vicente', 2);
 INSERT INTO game VALUES (18, '15/08/2022', 'Estádio Capital do Móvel', 343, 'Paços de Ferreira', 'Portimonense', 2);
- 
+
+--Game 10 Events
+insert into event_ values (1332, 49, 10, 24);
+insert into goal values (1332, false);
+insert into event_ values (1333, 49, 10, 67);
+insert into goal values (1333, false);
+insert into event_ values (1334, 1206, 10, 75);
+insert into goal values (1334, false);
+
 --Game 11 Events 
-INSERT INTO event_ VALUES (32, 84, 11); 
+INSERT INTO event_ VALUES (32, 84, 11, 10);
 INSERT INTO yellow_card VALUES (32); 
-INSERT INTO event_ VALUES (33, 87, 11); 
+INSERT INTO event_ VALUES (33, 87, 11, 11);
 INSERT INTO yellow_card VALUES (33); 
-INSERT INTO event_ VALUES (34, 23, 11); 
+INSERT INTO event_ VALUES (34, 23, 11, 22);
 INSERT INTO yellow_card VALUES (34); 
-INSERT INTO event_ VALUES (35, 26, 11); 
+INSERT INTO event_ VALUES (35, 26, 11, 39);
 INSERT INTO yellow_card VALUES (35); 
-INSERT INTO event_ VALUES (36, 83, 11); 
+INSERT INTO event_ VALUES (36, 83, 11, 42);
 INSERT INTO yellow_card VALUES (36); 
-INSERT INTO event_ VALUES (37, 85, 11); 
+INSERT INTO event_ VALUES (37, 85, 11, 56);
 INSERT INTO yellow_card VALUES (37); 
-INSERT INTO event_ VALUES (38, 30, 11); 
+INSERT INTO event_ VALUES (38, 30, 11, 67);
 INSERT INTO yellow_card VALUES (38); 
-INSERT INTO event_ VALUES (39, 78, 11); 
+INSERT INTO event_ VALUES (39, 78, 11, 70);
 INSERT INTO yellow_card VALUES (39); 
-INSERT INTO event_ VALUES (40, 374, 11); 
+INSERT INTO event_ VALUES (40, 374, 11, 81);
 INSERT INTO yellow_card VALUES (40); 
-INSERT INTO event_ VALUES (41, 23, 11); 
+INSERT INTO event_ VALUES (41, 23, 11, 85);
 INSERT INTO yellow_card VALUES (41); 
-INSERT INTO event_ VALUES (42, 31, 11); 
-INSERT INTO yellow_card VALUES (42); 
+INSERT INTO event_ VALUES (42, 31, 11, 89);
+INSERT INTO yellow_card VALUES (42);
+
+--Game 12 Events
+insert into event_ values (1343, 60, 12, 26);
+insert into yellow_card values (1343);
+insert into event_ values (1344, 60, 12, 81);
+insert into goal values (1344, false);
  
  
 --Round 3 
@@ -1382,45 +1396,45 @@ INSERT INTO game VALUES (26, '22/08/2022', 'Estádio Cidade de Barcelos', 351, '
 INSERT INTO game VALUES (27, '30/08/2022', 'Estádio da Luz', 347, 'Benfica', 'Paços de Ferreira', 3);
  
 --Game 22 Events 
-INSERT INTO event_ VALUES (43, 64, 22); 
+INSERT INTO event_ VALUES (43, 64, 22, 10);
 INSERT INTO yellow_card VALUES (43); 
-INSERT INTO event_ VALUES (44, 375, 22); 
+INSERT INTO event_ VALUES (44, 375, 22, 13);
 INSERT INTO yellow_card VALUES (44); 
-INSERT INTO event_ VALUES (45, 4, 22); 
+INSERT INTO event_ VALUES (45, 4, 22, 29);
 INSERT INTO yellow_card VALUES (45); 
-INSERT INTO event_ VALUES (46, 65, 22); 
+INSERT INTO event_ VALUES (46, 65, 22, 46);
 INSERT INTO yellow_card VALUES (46); 
-INSERT INTO event_ VALUES (47, 9, 22); 
+INSERT INTO event_ VALUES (47, 9, 22, 51);
 INSERT INTO goal VALUES (47, false); 
-INSERT INTO event_ VALUES (48, 60, 22); 
+INSERT INTO event_ VALUES (48, 60, 22, 59);
 INSERT INTO red_card VALUES (48); 
-INSERT INTO event_ VALUES (49, 63, 22); 
+INSERT INTO event_ VALUES (49, 63, 22, 69);
 INSERT INTO yellow_card VALUES (49); 
-INSERT INTO event_ VALUES (50, 6, 22); 
+INSERT INTO event_ VALUES (50, 6, 22, 72);
 INSERT INTO goal VALUES (50, false); 
-INSERT INTO event_ VALUES (51, 11, 22); 
+INSERT INTO event_ VALUES (51, 11, 22, 88);
 INSERT INTO goal VALUES (51, false); 
  
 --Game 25 Events 
-INSERT INTO event_ VALUES (52, 122, 25); 
+INSERT INTO event_ VALUES (52, 122, 25, 9);
 INSERT INTO yellow_card VALUES (52); 
-INSERT INTO event_ VALUES (53, 116, 25); 
+INSERT INTO event_ VALUES (53, 116, 25, 14);
 INSERT INTO yellow_card VALUES (53); 
-INSERT INTO event_ VALUES (54, 106, 25); 
+INSERT INTO event_ VALUES (54, 106, 25, 22);
 INSERT INTO goal VALUES (54, false); 
-INSERT INTO event_ VALUES (55, 125, 25); 
+INSERT INTO event_ VALUES (55, 125, 25, 24);
 INSERT INTO goal VALUES (55, false); 
-INSERT INTO event_ VALUES (56, 118, 25); 
+INSERT INTO event_ VALUES (56, 118, 25, 35);
 INSERT INTO yellow_card VALUES (56); 
-INSERT INTO event_ VALUES (57, 96, 25); 
+INSERT INTO event_ VALUES (57, 96, 25, 45);
 INSERT INTO yellow_card VALUES (57); 
-INSERT INTO event_ VALUES (58, 124, 25); 
+INSERT INTO event_ VALUES (58, 124, 25, 47);
 INSERT INTO goal VALUES (58, false); 
-INSERT INTO event_ VALUES (59, 103, 25); 
+INSERT INTO event_ VALUES (59, 103, 25, 56);
 INSERT INTO yellow_card VALUES (59); 
-INSERT INTO event_ VALUES (60, 121, 25); 
+INSERT INTO event_ VALUES (60, 121, 25, 59);
 INSERT INTO yellow_card VALUES (60); 
-INSERT INTO event_ VALUES (61, 112, 25); 
+INSERT INTO event_ VALUES (61, 112, 25, 88);
 INSERT INTO yellow_card VALUES (61); 
  
  
@@ -1436,67 +1450,67 @@ INSERT INTO game VALUES (35, '29/08/2022', 'Estádio D. Afonso Henriques', 352, 
 INSERT INTO game VALUES (36, '29/08/2022', 'Estádio do FC Vizela',  345,'Vizela', 'Gil Vicente', 4);
  
 --Game 31 Events 
-INSERT INTO event_ VALUES (62, 68, 31); 
+INSERT INTO event_ VALUES (62, 68, 31, 12);
 INSERT INTO yellow_card VALUES (62); 
-INSERT INTO event_ VALUES (63, 64, 31); 
+INSERT INTO event_ VALUES (63, 64, 31, 15);
 INSERT INTO yellow_card VALUES (63); 
-INSERT INTO event_ VALUES (64, 155, 31); 
+INSERT INTO event_ VALUES (64, 155, 31, 19);
 INSERT INTO goal VALUES (64, false); 
-INSERT INTO event_ VALUES (65, 161, 31); 
+INSERT INTO event_ VALUES (65, 161, 31, 21);
 INSERT INTO goal VALUES (65, false); 
-INSERT INTO event_ VALUES (66, 67, 31); 
+INSERT INTO event_ VALUES (66, 67, 31, 23);
 INSERT INTO yellow_card VALUES (66); 
-INSERT INTO event_ VALUES (67, 376, 31); 
+INSERT INTO event_ VALUES (67, 376, 31, 45);
 INSERT INTO yellow_card VALUES (67); 
-INSERT INTO event_ VALUES (68, 65, 31); 
+INSERT INTO event_ VALUES (68, 65, 31, 48);
 INSERT INTO yellow_card VALUES (68); 
-INSERT INTO event_ VALUES (69, 377, 31); 
+INSERT INTO event_ VALUES (69, 377, 31, 57);
 INSERT INTO yellow_card VALUES (69); 
-INSERT INTO event_ VALUES (70, 378, 31); 
+INSERT INTO event_ VALUES (70, 378, 31, 63);
 INSERT INTO red_card VALUES (70); 
-INSERT INTO event_ VALUES (71, 61, 31); 
+INSERT INTO event_ VALUES (71, 61, 31, 74);
 INSERT INTO yellow_card VALUES (71); 
  
 --Game 33 Events 
-INSERT INTO event_ VALUES (72, 46, 33); 
+INSERT INTO event_ VALUES (72, 46, 33, 3);
 INSERT INTO goal VALUES (72, false); 
-INSERT INTO event_ VALUES (73, 48, 33); 
+INSERT INTO event_ VALUES (73, 48, 33, 9);
 INSERT INTO goal VALUES (73, false); 
-INSERT INTO event_ VALUES (74, 379, 33); 
+INSERT INTO event_ VALUES (74, 379, 33, 14);
 INSERT INTO yellow_card VALUES (74); 
-INSERT INTO event_ VALUES (75, 45, 33); 
+INSERT INTO event_ VALUES (75, 45, 33, 26);
 INSERT INTO yellow_card VALUES (75); 
-INSERT INTO event_ VALUES (76, 44, 33); 
+INSERT INTO event_ VALUES (76, 44, 33, 35);
 INSERT INTO yellow_card VALUES (76); 
-INSERT INTO event_ VALUES (77, 140, 33); 
+INSERT INTO event_ VALUES (77, 140, 33, 41);
 INSERT INTO yellow_card VALUES (77); 
-INSERT INTO event_ VALUES (78, 146, 33); 
+INSERT INTO event_ VALUES (78, 146, 33, 50);
 INSERT INTO yellow_card VALUES (78); 
-INSERT INTO event_ VALUES (79, 48, 33); 
+INSERT INTO event_ VALUES (79, 48, 33, 54);
 INSERT INTO goal VALUES (79, false); 
-INSERT INTO event_ VALUES (80, 49, 33); 
+INSERT INTO event_ VALUES (80, 49, 33, 66);
 INSERT INTO goal VALUES (80, false); 
-INSERT INTO event_ VALUES (81, 380, 33); 
+INSERT INTO event_ VALUES (81, 380, 33, 77);
 INSERT INTO yellow_card VALUES (81); 
-INSERT INTO event_ VALUES (82, 381, 33); 
+INSERT INTO event_ VALUES (82, 381, 33, 88);
 INSERT INTO goal VALUES (82, false); 
-INSERT INTO event_ VALUES (83, 380, 33); 
+INSERT INTO event_ VALUES (83, 380, 33, 89);
 INSERT INTO goal VALUES (83, false); 
  
 --Game 35 Events 
-INSERT INTO event_ VALUES(84, 85, 35); 
+INSERT INTO event_ VALUES(84, 85, 35, 54);
 INSERT INTO goal VALUES (84, false); 
-INSERT INTO event_ VALUES(85, 80, 35); 
+INSERT INTO event_ VALUES(85, 80, 35, 58);
 INSERT INTO yellow_card VALUES (85); 
-INSERT INTO event_ VALUES(86, 103, 35); 
+INSERT INTO event_ VALUES(86, 103, 35, 64);
 INSERT INTO yellow_card VALUES (86); 
-INSERT INTO event_ VALUES(87, 77, 35); 
+INSERT INTO event_ VALUES(87, 77, 35, 71);
 INSERT INTO yellow_card VALUES (87); 
-INSERT INTO event_ VALUES(88, 96, 35); 
+INSERT INTO event_ VALUES(88, 96, 35, 76);
 INSERT INTO yellow_card VALUES (88); 
-INSERT INTO event_ VALUES(89, 90, 35); 
+INSERT INTO event_ VALUES(89, 90, 35, 80);
 INSERT INTO yellow_card VALUES (89); 
-INSERT INTO event_ VALUES(90, 33, 35); 
+INSERT INTO event_ VALUES(90, 33, 35, 87);
 INSERT INTO goal VALUES (90, false); 
  
  
@@ -1512,25 +1526,25 @@ INSERT INTO game VALUES (44, '05/09/2022',  'Estádio do Bessa', 351,'Boavista',
 INSERT INTO game VALUES (45, '05/09/2022', 'Estádio Municipal Eng.º Manuel Branco Teixeira', 352, 'Chaves', 'Rio Ave', 5);
  
 --Game 39 Events 
-INSERT INTO event_ VALUES (91, 98, 39); 
+INSERT INTO event_ VALUES (91, 98, 39, 2);
 INSERT INTO yellow_card VALUES (91); 
-INSERT INTO event_ VALUES (92, 382, 39); 
+INSERT INTO event_ VALUES (92, 382, 39, 12);
 INSERT INTO yellow_card VALUES (92); 
-INSERT INTO event_ VALUES (93, 383, 39); 
+INSERT INTO event_ VALUES (93, 383, 39, 22);
 INSERT INTO yellow_card VALUES (93); 
-INSERT INTO event_ VALUES (94, 44, 39); 
+INSERT INTO event_ VALUES (94, 44, 39, 32);
 INSERT INTO yellow_card VALUES (94); 
-INSERT INTO event_ VALUES (95, 96, 39); 
+INSERT INTO event_ VALUES (95, 96, 39, 42);
 INSERT INTO yellow_card VALUES (95); 
-INSERT INTO event_ VALUES (96, 40, 39); 
+INSERT INTO event_ VALUES (96, 40, 39, 52);
 INSERT INTO goal VALUES (96, false); 
-INSERT INTO event_ VALUES (97, 368, 39); 
+INSERT INTO event_ VALUES (97, 368, 39, 62);
 INSERT INTO goal VALUES (97, false); 
  
 --Game 41 Events 
-INSERT INTO event_ VALUES (98, 384, 41); 
+INSERT INTO event_ VALUES (98, 384, 41, 34);
 INSERT INTO yellow_card VALUES (98); 
-INSERT INTO event_ VALUES (99, 78, 41); 
+INSERT INTO event_ VALUES (99, 78, 41, 39);
 INSERT INTO yellow_card VALUES (99); 
  
  
@@ -1547,39 +1561,39 @@ INSERT INTO game VALUES (53, '11/09/2022', 'Estádio dos Arcos', 350, 'Rio Ave',
 INSERT INTO game VALUES (54, '12/09/2022', 'Estádio do FC Vizela', 348, 'Vizela', 'Estoril Praia', 6);
  
 --Game 48 Events 
-INSERT INTO event_ VALUES (100, 66, 48); 
+INSERT INTO event_ VALUES (100, 66, 48, 7);
 INSERT INTO goal VALUES (100, false); 
-INSERT INTO event_ VALUES (101, 66, 48); 
+INSERT INTO event_ VALUES (101, 66, 48, 12);
 INSERT INTO goal VALUES (101, false); 
-INSERT INTO event_ VALUES (102, 69, 48); 
+INSERT INTO event_ VALUES (102, 69, 48, 32);
 INSERT INTO yellow_card VALUES (102); 
-INSERT INTO event_ VALUES (103, 118, 48); 
+INSERT INTO event_ VALUES (103, 118, 48, 46);
 INSERT INTO yellow_card VALUES (103); 
-INSERT INTO event_ VALUES (104, 385, 48); 
+INSERT INTO event_ VALUES (104, 385, 48, 51);
 INSERT INTO yellow_card VALUES (104); 
-INSERT INTO event_ VALUES (105, 120, 48); 
+INSERT INTO event_ VALUES (105, 120, 48, 56);
 INSERT INTO yellow_card VALUES (105); 
-INSERT INTO event_ VALUES (106, 67, 48); 
+INSERT INTO event_ VALUES (106, 67, 48, 68);
 INSERT INTO goal VALUES (106, false); 
-INSERT INTO event_ VALUES (107, 69, 48); 
+INSERT INTO event_ VALUES (107, 69, 48, 75);
 INSERT INTO goal VALUES (107, false); 
-INSERT INTO event_ VALUES (108, 386, 48); 
+INSERT INTO event_ VALUES (108, 386, 48, 79);
 INSERT INTO yellow_card VALUES (108); 
-INSERT INTO event_ VALUES (109, 387, 48); 
+INSERT INTO event_ VALUES (109, 387, 48, 86);
 INSERT INTO yellow_card VALUES (109); 
  
 --Game 49 Events 
-INSERT INTO event_ VALUES (110, 8, 49); 
+INSERT INTO event_ VALUES (110, 8, 49, 11);
 INSERT INTO goal VALUES (110, false); 
-INSERT INTO event_ VALUES (111, 160, 49); 
+INSERT INTO event_ VALUES (111, 160, 49, 17);
 INSERT INTO yellow_card VALUES (111); 
-INSERT INTO event_ VALUES (112, 6, 49); 
+INSERT INTO event_ VALUES (112, 6, 49, 23);
 INSERT INTO yellow_card VALUES (112); 
-INSERT INTO event_ VALUES (113, 168, 49); 
+INSERT INTO event_ VALUES (113, 168, 49, 33);
 INSERT INTO yellow_card VALUES (113); 
-INSERT INTO event_ VALUES (114, 9, 49); 
+INSERT INTO event_ VALUES (114, 9, 49, 43);
 INSERT INTO yellow_card VALUES (114); 
-INSERT INTO event_ VALUES (115, 156, 49); 
+INSERT INTO event_ VALUES (115, 156, 49, 53);
 INSERT INTO yellow_card VALUES (115); 
-INSERT INTO event_ VALUES (116, 388, 49); 
+INSERT INTO event_ VALUES (116, 388, 49, 83);
 INSERT INTO goal VALUES (116, false); 
