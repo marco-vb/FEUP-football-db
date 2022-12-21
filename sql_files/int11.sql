@@ -2,9 +2,11 @@
 .headers off
 .nullvalue NULL
 
-select "Percentage of games wons by the team who scored the first goal";
+select "Percentage of games won by the team who scored the first goal";
 select "";
 
 .headers on
 
-select round((select count(*)
+-- calculate the percentage of games won by the team who scored the first goal
+select round((100 * select count(*) from
+(select count(*), )
