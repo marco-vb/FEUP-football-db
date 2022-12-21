@@ -1,5 +1,5 @@
 .mode column
-.headers on
+.headers off
 .nullvalue NULL
 
 select "All the players who scored in draws";
