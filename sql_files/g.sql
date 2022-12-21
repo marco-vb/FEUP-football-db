@@ -35,18 +35,7 @@ select * from (
         from game join team home_team on home_team.name_ = game.home_team_name join team away_team on away_team.name_ = game.away_team_name
         join stadium on stadium.name_ = game.stadium_name where "Home Score" < "Away Score" group by game.id order by game.id)
 ) as t
-where GameID in (
-    select event_.game_id as GameID
-    from event_, goal, player
-    where t.GameID = event_.game_id and event_.id = goal.id and event_.player_id = player.id
-    and player.team_name = (
-        select team_name
-        from player, event_, goal
-        where event_.id = goal.id and event_.player_id = player.id and event_.game_id = t.GameID
-        order by minute
-        limit 1
-    ) limit 1
-) and Team in (
+where Team in (
     select team_name
     from event_, goal, player
     where t.GameID = event_.game_id and event_.id = goal.id and event_.player_id = player.id
@@ -56,6 +45,6 @@ where GameID in (
         where event_.id = goal.id and event_.player_id = player.id and event_.game_id = t.GameID
         order by minute
         limit 1
-    ) limit 1
-)
+        ) limit 1
+    )
 );
