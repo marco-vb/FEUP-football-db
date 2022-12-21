@@ -24,4 +24,4 @@ join team away_team on away_team.name_ = game.away_team_name
 join stadium on stadium.name_ = game.stadium_name
 group by game.id
 having abs("Home Score" - "Away Score") >= 2
-order by game.date_;
+order by game.id;
