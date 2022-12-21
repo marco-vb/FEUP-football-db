@@ -7,7 +7,7 @@ select "";
 
 .headers on
 
-select team.name_ as Name, round((select count(*) from
+select team.name_ as Name, round(
     (select count(*) from
     (select game.date_ as Date, stadium.name_ as Stadium, home_team.name_ as Home_Team, away_team.name_ as Away_Team,
     (select count(*) from event_
@@ -23,7 +23,7 @@ select team.name_ as Name, round((select count(*) from
     from game
     join team home_team on home_team.name_ = game.home_team_name
     join team away_team on away_team.name_ = game.away_team_name
-    join stadium on stadium.name_ = game.stadium_name) where Away_Team_Score < Home_Team_Score and Away_Team = team.name_)) * 100 /
+    join stadium on stadium.name_ = game.stadium_name) where Away_Team_Score > Home_Team_Score and Away_Team = team.name_) * 100 /
     (select count(*) from
     (select game.date_ as Date, stadium.name_ as Stadium, home_team.name_ as Home_Team, away_team.name_ as Away_Team,
     (select count(*) from event_
