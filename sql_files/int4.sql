@@ -7,7 +7,7 @@ select "";
 
 .headers on
 
-select row_number() over (order by Points desc) as Position, Name, Points from
+select row_number() over (order by Points desc, Goals_scored desc, Goals_conceded) as Position, Name, Points, Goals_scored, Goals_conceded from
 (select team.name_ as Name, ((select count(*) from
     (select game.date_ as Date, stadium.name_ as Stadium, home_team.name_ as Home_Team, away_team.name_ as Away_Team,
        (select count(*) from event_
@@ -40,7 +40,13 @@ join stadium on stadium.name_ = game.stadium_name) where (Home_Team_Score > Away
 from game
 join team home_team on home_team.name_ = game.home_team_name
 join team away_team on away_team.name_ = game.away_team_name
-join stadium on stadium.name_ = game.stadium_name) where (Home_Team_Score = Away_Team_Score and Home_Team = team.name_) or ( Away_Team_Score = Home_Team_Score and Away_Team = team.name_))) as Points
+join stadium on stadium.name_ = game.stadium_name) where (Home_Team_Score = Away_Team_Score and Home_Team = team.name_) or ( Away_Team_Score = Home_Team_Score and Away_Team = team.name_))) as Points,
+(select count(*)
+from player, event_, goal
+where team.name_ = player.team_name and player.id = event_.player_id and event_.id = goal.id) as Goals_scored,
+(select count(*)
+from player, event_, goal, game
+where team.name_ != player.team_name and player.id = event_.player_id and event_.id = goal.id and event_.game_id = game.id and (game.home_team_name = team.name_ or game.away_team_name = team.name_)) as Goals_conceded
 from team
 group by team.name_
 order by Points desc)
