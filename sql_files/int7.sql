@@ -40,7 +40,7 @@ join stadium on stadium.name_ = game.stadium_name) where (Home_Team_Score > Away
 from game
 join team home_team on home_team.name_ = game.home_team_name
 join team away_team on away_team.name_ = game.away_team_name
-join stadium on stadium.name_ = game.stadium_name) where (Home_Team_Score = Away_Team_Score and Home_Team = team.name_) or ( Away_Team_Score = Home_Team_Score and Away_Team = team.name_))) as Points
+join stadium on stadium.name_ = game.stadium_name) where (Home_Team_Score = Away_Team_Score and Home_Team_Score = 0 and Home_Team = team.name_) or ( Away_Team_Score = Home_Team_Score and Home_Team_Score = 0 and Away_Team = team.name_))) as Points
 from team
 group by team.name_
 order by Points desc), person p, player
@@ -49,4 +49,4 @@ join event_ e on e.player_id = p.id
 join game g on e.game_id = g.id
 join goal on e.id = goal.id
 where p.id = player.id
-group by p.name_
+group by p.name_;

@@ -1,15 +1,24 @@
 pragma foreign_keys = on;
 
-create trigger unique_jersey_number
-after insert on player
+create trigger player_must_be_in_game
+before insert on event_
 when  (
         select count(*)
         from (
             select *
             from player
-            where player.team_name = new.team_name and player.nr = new.nr
+            where player.id = new.player_id
+              and (player.team_name in (
+                select home_team_name
+                from game
+                where game.id = new.game_id
+              ) or player.team_name in (
+                select away_team_name
+                from game
+                where game.id = new.game_id
+              ))
         )
-    ) > 1
+    ) = 0
 begin
-    select raise(rollback , 'Two players on the same team cannot have the same jersey number');
+    select raise(abort , 'An event must be associated with a player in the game');
 end;

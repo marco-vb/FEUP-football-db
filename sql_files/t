@@ -1,2 +1,5 @@
 .read criar.sql
+.read gatilho1_adiciona.sql
+.read gatilho2_adiciona.sql
+.read gatilho3_adiciona.sql
 .read povoar.sql

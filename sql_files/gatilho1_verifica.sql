@@ -31,7 +31,7 @@ select "We are now going to add a yellow card to player_id 370 in game 1";
 select "The red card trigger should fire and add a red card to player_id 370 in game 1";
 select "";
 
-insert into event_ values (1001, 370, 1);
+insert into event_ values (1001, 370, 1, 9);
 insert into yellow_card values (1001);
 
 .headers on

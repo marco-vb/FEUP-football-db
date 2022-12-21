@@ -1302,9 +1302,7 @@ INSERT INTO goal VALUES (18, false);
 INSERT INTO event_ VALUES (19, 369, 7, 2);
 INSERT INTO yellow_card VALUES (19); 
 INSERT INTO event_ VALUES (20, 97, 7, 8);
-INSERT INTO yellow_card VALUES (20); 
-INSERT INTO event_ VALUES (21, 39, 7, 23);
-INSERT INTO yellow_card VALUES (21); 
+INSERT INTO yellow_card VALUES (20);
 INSERT INTO event_ VALUES (22, 99, 7, 33);
 INSERT INTO yellow_card VALUES (22); 
 INSERT INTO event_ VALUES (23, 371, 7, 44);
@@ -1611,9 +1609,7 @@ INSERT INTO yellow_card VALUES (87);
 INSERT INTO event_ VALUES(88, 96, 35, 76);
 INSERT INTO yellow_card VALUES (88); 
 INSERT INTO event_ VALUES(89, 90, 35, 80);
-INSERT INTO yellow_card VALUES (89); 
-INSERT INTO event_ VALUES(90, 33, 35, 87);
-INSERT INTO goal VALUES (90, false);
+INSERT INTO yellow_card VALUES (89);
 
 --Game 36 Events
 insert into event_ values (1378, 329, 36, 42);
