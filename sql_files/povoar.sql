@@ -1630,7 +1630,15 @@ INSERT INTO game VALUES (42, '04/09/2022',  'Estádio de São Miguel', 354,'Sant
 INSERT INTO game VALUES (43, '04/09/2022', 'Estádio Municipal de Portimão', 347, 'Portimonense', 'Famalicão', 5);
 INSERT INTO game VALUES (44, '05/09/2022',  'Estádio do Bessa', 351,'Boavista', 'Paços de Ferreira', 5);
 INSERT INTO game VALUES (45, '05/09/2022', 'Estádio Municipal Eng.º Manuel Branco Teixeira', 352, 'Chaves', 'Rio Ave', 5);
- 
+
+--Game 37 Events
+insert into event_ values (1400, 276, 37, 42);
+insert into goal values (1400, false);
+
+--Game 38 Events
+insert into event_ values (1401, 60, 38, 42);
+insert into goal values (1401, false);
+
 --Game 39 Events 
 INSERT INTO event_ VALUES (91, 98, 39, 2);
 INSERT INTO yellow_card VALUES (91); 
@@ -1648,10 +1656,14 @@ INSERT INTO event_ VALUES (97, 368, 39, 62);
 INSERT INTO goal VALUES (97, false); 
  
 --Game 41 Events 
-INSERT INTO event_ VALUES (98, 384, 41, 34);
+INSERT INTO event_ VALUES (98, 88, 41, 34);
 INSERT INTO yellow_card VALUES (98); 
 INSERT INTO event_ VALUES (99, 78, 41, 39);
-INSERT INTO yellow_card VALUES (99); 
+INSERT INTO goal VALUES (99, false);
+
+--Game 45 Events
+insert into event_ values (1405, 153, 45, 42);
+insert into goal values (1405, false);
  
  
  
@@ -1665,7 +1677,17 @@ INSERT INTO game VALUES (51, '11/09/2022', 'Estádio Municipal de Arouca', 361, 
 INSERT INTO game VALUES (52, '11/09/2022',  'Estádio dos Barreiros', 357,'Marítimo', 'Gil Vicente', 6);
 INSERT INTO game VALUES (53, '11/09/2022', 'Estádio dos Arcos', 350, 'Rio Ave', 'Braga', 6);
 INSERT INTO game VALUES (54, '12/09/2022', 'Estádio do FC Vizela', 348, 'Vizela', 'Estoril Praia', 6);
- 
+
+--Game 46 Events
+insert into event_ values (1379, 100, 46, 42);
+insert into goal values (1379, false);
+insert into event_ values (1380, 107, 46, 42);
+insert into goal values (1380, false);
+
+--Game 47 Events
+insert into event_ values (1381, 1204, 47, 42);
+insert into goal values (1381, false);
+
 --Game 48 Events 
 INSERT INTO event_ VALUES (100, 66, 48, 7);
 INSERT INTO goal VALUES (100, false); 

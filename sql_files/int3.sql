@@ -2,7 +2,7 @@
 .headers off
 .nullvalue NULL
 
-select "Games where only 1 team scored";
+select "Games where a team won by 2 or more goals";
 select "";
 
 .headers on
@@ -22,5 +22,6 @@ from game
 join team home_team on home_team.name_ = game.home_team_name
 join team away_team on away_team.name_ = game.away_team_name
 join stadium on stadium.name_ = game.stadium_name
-where ("Home Score" = 0 and "Away Score" != 0)
-or ("Home Score" != 0 and "Away Score" = 0);
+group by game.id
+having abs("Home Score" - "Away Score") >= 2
+order by game.date_;
