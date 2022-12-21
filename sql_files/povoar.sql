@@ -1378,10 +1378,48 @@ INSERT INTO event_ VALUES (42, 31, 11, 89);
 INSERT INTO yellow_card VALUES (42);
 
 --Game 12 Events
-insert into event_ values (1343, 60, 12, 26);
+insert into event_ values (1343, 386, 12, 26);
 insert into yellow_card values (1343);
-insert into event_ values (1344, 60, 12, 81);
+insert into event_ values (1344, 386, 12, 81);
 insert into goal values (1344, false);
+
+--Game 13 Events
+insert into event_ values (1345, 177, 13, 42);
+insert into goal values (1345, false);
+
+--Game 14 Events
+insert into event_ values (1346, 279, 14, 42);
+insert into goal values (1346, false);
+insert into event_ values (1347, 282, 14, 81);
+insert into goal values (1347, false);
+
+--Game 15 Events
+insert into event_ values (1349, 1306, 15, 42);
+insert into goal values (1349, false);
+insert into event_ values (1350, 1314, 15, 42);
+insert into goal values (1350, false);
+insert into event_ values (1351, 109, 15, 42);
+insert into goal values (1351, false);
+
+--Game 16 Events
+insert into event_ values (1352, 1001, 16, 42);
+insert into goal values (1352, false);
+insert into event_ values (1353, 377, 16, 81);
+insert into goal values (1353, false);
+
+--Game 17 Events
+insert into event_ values (1354, 317, 17, 42);
+insert into goal values (1354, false);
+insert into event_ values (1355, 321, 17, 42);
+insert into goal values (1355, false);
+insert into event_ values (1356, 316, 17, 42);
+insert into goal values (1356, false);
+insert into event_ values (1357, 142, 17, 42);
+insert into goal values (1357, false);
+
+--Game 18 Events
+insert into event_ values (1358, 244, 18, 42);
+insert into goal values (1358, false);
  
  
 --Round 3 
@@ -1394,7 +1432,21 @@ INSERT INTO game VALUES (24, '21/08/2022', 'Estádio Municipal de Braga', 356, '
 INSERT INTO game VALUES (25, '21/08/2022', 'Estádio Municipal de Portimão', 360, 'Portimonense', 'Vitória', 3); 
 INSERT INTO game VALUES (26, '22/08/2022', 'Estádio Cidade de Barcelos', 351, 'Gil Vicente', 'Famalicão', 3);
 INSERT INTO game VALUES (27, '30/08/2022', 'Estádio da Luz', 347, 'Benfica', 'Paços de Ferreira', 3);
- 
+
+--Game 19 Events
+insert into event_ values (1359, 1300, 19, 42);
+insert into goal values (1359, false);
+
+--Game 20 Events
+insert into event_ values (1360, 195, 20, 42);
+insert into goal values (1360, false);
+
+--Game 21 Events
+insert into event_ values (1361, 162, 21, 42);
+insert into goal values (1361, false);
+insert into event_ values (1362, 287, 21, 81);
+insert into goal values (1362, false);
+
 --Game 22 Events 
 INSERT INTO event_ VALUES (43, 64, 22, 10);
 INSERT INTO yellow_card VALUES (43); 
@@ -1413,7 +1465,17 @@ INSERT INTO yellow_card VALUES (49);
 INSERT INTO event_ VALUES (50, 6, 22, 72);
 INSERT INTO goal VALUES (50, false); 
 INSERT INTO event_ VALUES (51, 11, 22, 88);
-INSERT INTO goal VALUES (51, false); 
+INSERT INTO goal VALUES (51, false);
+
+--Game 23 Events
+insert into event_ values (1363, 224, 23, 42);
+insert into yellow_card values (1363);
+
+--Game 24 Events
+insert into event_ values (1364, 43, 24, 42);
+insert into goal values (1364, false);
+insert into event_ values (1365, 43, 24, 81);
+insert into goal values (1365, false);
  
 --Game 25 Events 
 INSERT INTO event_ VALUES (52, 122, 25, 9);
@@ -1435,7 +1497,21 @@ INSERT INTO yellow_card VALUES (59);
 INSERT INTO event_ VALUES (60, 121, 25, 59);
 INSERT INTO yellow_card VALUES (60); 
 INSERT INTO event_ VALUES (61, 112, 25, 88);
-INSERT INTO yellow_card VALUES (61); 
+INSERT INTO yellow_card VALUES (61);
+
+--Game 26 Events
+insert into event_ values (1366, 308, 26, 42);
+insert into goal values (1366, false);
+insert into event_ values (1367, 312, 26, 81);
+insert into goal values (1367, false);
+insert into event_ values (1368, 1211, 26, 81);
+insert into goal values (1368, false);
+
+--Game 27 Events
+insert into event_ values (1369, 27, 27, 42);
+insert into goal values (1369, false);
+insert into event_ values (1370, 246, 27, 81);
+insert into goal values (1370, false);
  
  
 --Round 4 
