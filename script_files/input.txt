@@ -1,0 +1,37 @@
+Estoril Praia,Pedro Silva,25 anos,13,Portugal
+Estoril Praia,Daniel Figueira,24 anos,99,Portugal
+Estoril Praia,João Oliveira,20 anos,47,Portugal
+Estoril Praia,Thiago Rodrigues,26 anos,12,Brasil
+Estoril Praia,Lucas Áfrico,27 anos,4,Brasil
+Estoril Praia,Racine Coly,26 anos,14,Senegal
+Estoril Praia,Felix,20 anos,94,Brasil
+Estoril Praia,Martim Filipe,18 anos,64,Portugal
+Estoril Praia,Tiago Santos,20 anos,62,Portugal
+Estoril Praia,Gonçalo Esteves,18 anos,87,Portugal
+Estoril Praia,Bernardo Vital,21 anos,3,Portugal
+Estoril Praia,Pedro Álvaro,22 anos,23,Portugal
+Estoril Praia,Edson Mexer,34 anos,34,Moçambique
+Estoril Praia,Shaquil Delos,23 anos,22,França
+Estoril Praia,Joãozinho,33 anos,31,Portugal
+Estoril Praia,Volnei Feltes,22 anos,5,Brasil
+Estoril Praia,João Marques,20 anos,33,Portugal
+Estoril Praia,Mabrouk Rouai,22 anos,91,França
+Estoril Praia,Mor Ndiaye,22 anos,25,Senegal
+Estoril Praia,Loreintz Rosier,24 anos,32,França
+Estoril Praia,Serginho,21 anos,8,Portugal
+Estoril Praia,Francisco Geraldes,27 anos,10,Portugal
+Estoril Praia,João Carvalho,25 anos,20,Portugal
+Estoril Praia,James Léa-Siliki,26 anos,95,Camarões
+Estoril Praia,Duarte Carvalho,20 anos,20,Portugal
+Estoril Praia,Titouan Thomas,20 anos,22,França
+Estoril Praia,Tiago Gouveia,21 anos,21,Portugal
+Estoril Praia,Iuri Tavares,21 anos,38,Cabo Verde
+Estoril Praia,Alejandro Marqués,22 anos,9,Espanha
+Estoril Praia,João Carlos,27 anos,50,Brasil
+Estoril Praia,Erison Danilo,23 anos,79,Brasil
+Estoril Praia,Gilson Benchimol,20 anos,90,Cabo Verde
+Estoril Praia,Rodrigo Martins,24 anos,7,Portugal
+Estoril Praia,Dele Yusuf,21 anos,11,Nigéria
+Estoril Praia,Tiago Araújo,21 anos,78,Portugal
+Estoril Praia,Arthur Gomes,24 anos,11,Brasil
+Estoril Praia,Elias Achouri,23 anos,17,Tunísia
