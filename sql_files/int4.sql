@@ -50,4 +50,3 @@ where team.name_ != player.team_name and player.id = event_.player_id and event_
 from team
 group by team.name_
 order by Points desc)
-order by Points desc;
